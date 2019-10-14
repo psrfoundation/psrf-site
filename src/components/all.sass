@@ -1,17 +1,62 @@
 @import "~bulma/sass/utilities/initial-variables"
+// ^!! Use bulma for CSS styles! !!^ https://bulma.io/documentation
 
-// Config vars
-// Kaldi logo brand color: #FD461E
+h1, h2
+  // font-family: 'Rock Salt', cursive
+  // font-family: 'Tekton', sans-serif
+  font-family: tekton-pro, sans-serif
+  font-weight: 700
+  font-style: normal
+  color: #8e2344
+
+h3
+  font-family: 'Quicksand', sans-serif
+
+p
+  font-family: 'Quicksand', sans-serif
+  font-size: 1.25em
+
+.section button a
+  color: white
+  /*0f8566 - green*/
+
+.section .container .content ul > li
+  font-family: 'Quicksand', sans-serif
+  font-size: 1.25em
+
+.modal
+  opacity: 1
+  transition: opacity 300ms ease-in-out
+
+
+.container > div > .columns
+  // margin: inherit
+
+// *** Config vars ***
+
+$kaldi-logo-brand: #FD461E
 $kaldi-red: #D64000
 $kaldi-red-invert: #fff
 
-$primary: $kaldi-red
-$primary-invert: $kaldi-red-invert
+// PSRF -
+$psrf-wine-red: #8e2344 // Pantone 208
+$psrf-silver: #8a8d8f // Pantone 877
+$psrf-teal: #51d7d7
+
+$primary: $psrf-wine-red
+$primary-invert: $psrf-silver
 $body-color: #333
-$black: #2b2523
+
+$navbar-breakpoint: $tablet
+
+$link: #228fcd //#0f8566 //#418ab3
+$link-color: #228fcd
+
+nav.navbar
+  text-align: right
 
 .navbar .navbar-menu
-  box-shadow:none !important
+  box-shadow: none !important
 
 .content .taglist
   list-style: none
@@ -28,113 +73,196 @@ $black: #2b2523
     margin-bottom: 1.5rem
     margin-top: 0
 
+.circle
+  width: 250px
+  max-height: 250px
+
+  border-radius: 50%
+
+.no-padding
+  padding: 0 !important
+
+
 // Helper Classes
+
+button:hover
+  cursor: pointer
+
+.irs-info
+  font-size: 0.9em
+
+.has-text-primary
+  font-size: 1.2em
+
 .full-width-image-container
   width: 100vw
-  height: 400px
   position: relative
   left: 50%
   right: 50%
-  margin: 2em -50vw
+  margin: 5em -50vw
   background-size: cover
-  background-position: bottom
+  background-position: center
   display: flex
   justify-content: center
   align-items: center
 
-.full-width-image
-    width: 100vw
-    height: 400px
-    background-size: cover
-    background-position: bottom
-    display: flex
-    justify-content: center
-    align-items: center
+.homepage-hero
+  height: 600px
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: top center
 
-.btn
-    display: inline-block
-    padding: 12px 16px 10px
-    font-size: 18px
-    font-size: 1rem
-    line-height: 1.25
-    background-color: #fff
-    border-radius: .25rem
-    text-decoration: none
-    font-weight: 700
-    color: #CC3700
-    text-align: center
-    -webkit-box-shadow: inset 0 0 0 2px #CC3700
-    box-shadow: inset 0 0 0 2px #f40
-    -webkit-transition: all .15s ease
-    transition: all .15s ease
 
 .margin-top-0
   margin-top: 0 !important
 
-.navbar-item .icon
-  color: $primary
-// Override for use of svg's from https://simpleicons.org/
-.icon svg
-  width: 1.5rem
-  height: 1.5rem
-  fill: currentColor
-.navbar-brand .navbar-item.logo
-  padding: 0 1rem
-footer.footer
-  padding: 3rem 0rem 0rem
-  background-color: transparent
+.margin-bottom-0
+  margin-bottom: 0 !important
 
-//Menu overrides
-$menu-item-color: $white-ter
-$menu-item-hover-color: $black !important
-$menu-item-hover-background-color: $black
-$menu-item-active-color: $kaldi-red-invert
-$menu-item-active-background-color:	$kaldi-red-invert
-$menu-list-border-left: 1px solid $kaldi-red-invert
-$menu-label-color: $white-ter
+.red-topbar
+  text-align: right
+
+#topbar
+  display: inline
+  min-height: 20px !important
+  text-align: right
+
+  margin-left: auto
+  padding-right: 24px
+
+#topbar > a
+  color: white
+  font-size: 1em
+
+.social-links > a
+  display: inline-block
+  color: $psrf-wine-red
+  vertical-align: middle
+  line-height: 80px
+  font-size: 1.4em
+  margin-right: 8px
+
+.footer
+  padding: 20px 0 20px 0 !important
+  color: white
+  background-color: $psrf-wine-red !important
+
+.footer a, .footer strong
+  color: white
+
+.footer .social-links
+  font-size: 1.6em
+
+.social-nav
+  min-width: 200px
+
+p.copyright
+  font-size: 0.8em
+
+// ---
+
+.board-volunteers-grid-container .board-volunteers h3,
+.board-volunteers-grid-container .board-volunteers h4,
+.board-volunteers-grid-container .board-volunteers > div:nth-of-type(1)
+  // color: $primary
+  margin: 0
+  font-family: tekton-pro, sans-serif
+
+.board-volunteers-grid-container .board-volunteers h4
+  margin: 4px 0 0 0
+
+.board-volunteers-grid-container .board-volunteers > small
+  display: block
 
 
-.menu-label
-  font-size: 1em !important
-  text-align: left
-.menu-list
-  list-style: none !important
-  text-align: left
-.social
-  padding: 2em
-.social a
-    padding: .5em .5em .3em .5em
-    border-radius: 1em
-    background-color: $white-ter
-    margin: .5em
-    width: 1em
-    height: 1em
-    vertical-align: middle
-    display: inline
+.board-volunteers-grid-container
+  display: grid
+  grid-template-columns: 1fr 1fr 1fr
+  grid-template-rows: 1fr 1fr 1fr
+  grid-template-areas: ". . ." ". . ." ". . ." ". . ." ". . ." ". . ." ". . ."
 
-// blog roll
-.blog-list-item.is-featured
-  background-color: #d6400033;
-.blog-list-item header
-  display: flex;
-  margin-bottom: 1em;
-.blog-list-item .featured-thumbnail
-  flex-basis: 35%;
-  margin: 0 1.5em 0 0;
+.board-volunteers > img
+  max-width: 200px
+
+.board-volunteers > h4 ~ div
+  font-size: 1.1rem
+
+.board-volunteers
+  margin: 5px
+
+#committees
+  font-family: tekton-pro, sans-serif
+
+#committees h4
+  margin-bottom: 0.2rem
+// ---
+
+.scholarship-title
+  font-family: tekton-pro, sans-serif
+  font-size: 1.8rem
+  color: $psrf-wine-red
+
+.scholarships-grid-container .scholarship-winner h2
+  // color: $primary
+  margin: 0
+  font-size: 1.4em
+
+
+.scholarships-grid-container
+  display: grid
+  grid-gap: 10px 20px
+  grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr
+  grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 1fr 1fr 1fr 1fr 1fr 0.5fr 0.5fr 0.5fr
+  grid-template-areas: ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ."
+
+.board-volunteers
+  font-family: tekton-pro, sans-serif
+
+
+
+.scholarship-yr
+  color: $psrf-wine-red
+  font-family: tekton-pro, sans-serif
+  font-size: 1.5rem
+
+  // ---
+
+.navbar-burger
+  height: 80px !important
+
+.zoom
+  background-position: center center
+  background-repeat: no-repeat
+  background-size: cover
+  transform: scale(1.5)
+
+.red-section
+  background-color: $psrf-wine-red
+
+.title
+  margin-bottom: 0.25em !important
+  margin-top: 0.5em
+  font-size: 1.5rem
+  // font-size: 1.8rem
+  font-family: tekton-pro, sans-serif
+  color: #228fcd !important
+
+.content .red-section h2,
+.content .red-section h3,
+.content .red-section a
+  color: white
+
+.content .red-section a
+  font-weight: bold
+
+.content .red-section p,
+.content .red-section small
+  color: white
+  text-align: center
+  display: block
+
+.dropdown-toggle::after
+  color: $psrf-wine-red
 
 
 @import "~bulma"
-
-
-// responsiveness
-+tablet-only
-  .blog-list-item .featured-thumbnail
-    flex-basis: 50%;
-
-+mobile
-  .blog-list-item header
-    display: block
-  .blog-list-item .featured-thumbnail
-    text-align: center;
-    max-width: 70%;
-    margin: 0 0 1em;
