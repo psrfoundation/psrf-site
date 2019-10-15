@@ -12,7 +12,7 @@ h1, h2
 h3
   font-family: 'Quicksand', sans-serif
 
-p
+p, li
   font-family: 'Quicksand', sans-serif
   font-size: 1.25em
 
@@ -51,6 +51,10 @@ $navbar-breakpoint: $tablet
 
 $link: #228fcd //#0f8566 //#418ab3
 $link-color: #228fcd
+
+  
+.container.content .title // Blog
+  color: $psrf-wine-red
 
 nav.navbar
   text-align: right
@@ -137,7 +141,7 @@ button:hover
 .social-links > a
   display: inline-block
   color: $psrf-wine-red
-  vertical-align: middle
+  vertical-align: text-bottom
   line-height: 80px
   font-size: 1.4em
   margin-right: 8px
@@ -240,11 +244,16 @@ p.copyright
   background-color: $psrf-wine-red
 
 .title
-  margin-bottom: 0.25em !important
+  margin-bottom: 0.25em
   margin-top: 0.5em
   font-size: 1.5rem
   // font-size: 1.8rem
   font-family: tekton-pro, sans-serif
+  color: #228fcd
+
+.circle ~ .title,
+a ~ .title
+  margin-bottom: 0.25em !important
   color: #228fcd !important
 
 .content .red-section h2,

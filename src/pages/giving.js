@@ -25,7 +25,7 @@ export default class GivingPage extends React.Component {
               <h3>Give Online!</h3>
               <p>Giving online is quick, easy, and secure. You can make both one-time and recurring gift, as well as pledges and endowments.</p>
               <br />
-              <a href='https://www.classy.org/give/238204/#!/donation/checkout' className='button is-large is-rounded' style={{ fontFamily: 'Quicksand', fontWeight: 'bold', display: 'block', color: '#8e2344', backgroundColor: 'white', border: '3px #8e2344 solid', borderRadius: 0, marginLeft: 'auto', marginRight: 'auto', width: '40%', minWidth: '200px', marginLeft: 'auto', marginRight: 'auto' }}>Donate Now!</a>
+              <a href='https://www.classy.org/give/238204/#!/donation/checkout' className='button is-large is-rounded' style={{ fontFamily: 'Quicksand', fontWeight: 'bold', display: 'block', color: '#8e2344', backgroundColor: 'white', border: '3px #8e2344 solid', borderRadius: 0, marginLeft: 'auto', marginRight: 'auto', width: '40%', minWidth: '200px' }}>Donate Now!</a>
               <br />
               <h3>Give by Mail</h3>
               <p>To give a gift by mail, please send a check or money order to Phi Sigma Rho Foundation,  PO Box 7021, Westchester, IL 60154.</p>
@@ -34,14 +34,14 @@ export default class GivingPage extends React.Component {
               <h3>Recurring Gift</h3>
               <p>A monthly gift to the Phi Sigma Rho Foundation is an easy and convenient way to support the sisterhood. Start your recurring gift today!</p>
               <br />
-              <a href='https://www.classy.org/give/238204/#!/donation/checkout' className='button is-large is-rounded' style={{ fontFamily: 'Quicksand', fontWeight: 'bold', display: 'block', color: '#8e2344', backgroundColor: 'white', border: '3px #8e2344 solid', borderRadius: 0, marginLeft: 'auto', marginRight: 'auto', width: '40%', minWidth: '200px', marginLeft: 'auto', marginRight: 'auto' }}>Donate Now!</a>
+              <a href='https://www.classy.org/give/238204/#!/donation/checkout' className='button is-large is-rounded' style={{ fontFamily: 'Quicksand', fontWeight: 'bold', display: 'block', color: '#8e2344', backgroundColor: 'white', border: '3px #8e2344 solid', borderRadius: 0, marginLeft: 'auto', marginRight: 'auto', width: '40%', minWidth: '200px' }}>Donate Now!</a>
               <br />
               <h3>Pledges and Endowments Gifts</h3>
               <p>Spreading out your payments on a large gift through a pledge—a formal agreement to make a gift to the Foundation—is a wonderful way to reach a more generous goal with regular payments over time. What is more, each payment on your pledge is eligible for an income-tax charitable deduction. Like all gifts, pledges can be designated to a specific fund or program.</p>
               <p>The Phi Sigma Rho Foundation also accepts endowment gifts. Unlike gifts for current use, endowment gifts provide security over the long term by expanding the Foundation’s permanent financial base and creating a predictable source of future income for such things as endowed scholarships.</p>
               <p>Please contact <a href="mailto:donorengagement@phisigmarhofoundation.org">donorengagemenet@phisigmarhofoundation.org</a> for more information today!</p>
               <h3>Amazon Smile</h3>
-              <p>Amazon will donate 0.5% of the price of your eligible AmazonSmile purchases to the charitable organization of your choice. Support our sisterhood by shopping at <a href="https://smile.amazon.com" target="_blank">smile.amazon.com</a> and choosing the Phi Sigma Rho Foundation as the benefiting charitable organization.</p>
+              <p>Amazon will donate 0.5% of the price of your eligible AmazonSmile purchases to the charitable organization of your choice. Support our sisterhood by shopping at <a href="https://smile.amazon.com" target="_blank" rel="noopener noreferrer">smile.amazon.com</a> and choosing the Phi Sigma Rho Foundation as the benefiting charitable organization.</p>
               <h3>Planned Giving through a Bequest</h3>
               <h4 style={{fontFamily: 'Quicksand'}}>How it works:</h4>
               <p>Include the Phi Sigma Rho Foundation (PO Box 7021, Westchester, IL 60154) as a beneficiary in your estate plan.  If desired, direct how you would like the gift to be used, or, you can make an unrestricted gift to support the Foundation, which will be used to support the organization’s goals wherever the need is greatest.</p>

@@ -6,8 +6,8 @@ import {
   NavbarToggler,
   NavbarBrand,
   Nav,
-  NavItem,
-  NavLink,
+  // NavItem,
+  // NavLink,
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
@@ -34,15 +34,17 @@ export default class PSRFNav extends React.Component {
       isOpen: !this.state.isOpen
     });
   }
+
+  /* TODO - Links could behave better... be sure to preserve Link for performance */
   render() {
     return (
       <div>
        <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">
             <Link to='/' className='navbar-item' title='Logo'>
-              <img src={logo} alt='Phi Sigma Rho Foundation' style={{ width: 'auto', maxHeight: '4rem' }} />
+              <NavbarBrand>
+                <img src={logo} alt='Phi Sigma Rho Foundation' style={{ width: 'auto', maxHeight: '3rem' }} />
+              </NavbarBrand>
             </Link>
-          </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="mr-auto" navbar>
@@ -50,39 +52,27 @@ export default class PSRFNav extends React.Component {
                 <DropdownToggle nav caret>
                   <Link style={{color: '#666'}} to='/about'>About</Link>
                 </DropdownToggle>
-                <DropdownMenu right>
-                  <DropdownItem>
-                    <NavLink style={{color: '#666'}} href='/publications'>Publications</NavLink>
-                  </DropdownItem>
-                  <DropdownItem>
-                    <NavLink style={{color: '#666'}} href='/volunteers'>Volunteers</NavLink>
-                  </DropdownItem>
-                  <DropdownItem>
-                    <NavLink style={{color: '#666'}} href='/contact'>Contact</NavLink>
-                  </DropdownItem>
+                <DropdownMenu>
+                    <Link style={{color: '#666'}} to='/publications'><DropdownItem>Publications</DropdownItem></Link>
+                    <Link style={{color: '#666'}} to='/volunteers'><DropdownItem>Volunteers</DropdownItem></Link>
+                    <Link style={{color: '#666'}} to='/contact'><DropdownItem>Contact</DropdownItem></Link>
                 </DropdownMenu>
               </UncontrolledDropdown>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
                   <Link style={{color: '#666'}} to='/giving'>Give Today</Link>
                 </DropdownToggle>
-                <DropdownMenu right>
-                  <DropdownItem>
-                    <NavLink style={{color: '#666'}} href='/donors'>Donor Recognition</NavLink>
-                  </DropdownItem>
+                <DropdownMenu>
+                    <Link style={{color: '#666'}} to='/donors'><DropdownItem>Donor Recognition</DropdownItem></Link>
                 </DropdownMenu>
               </UncontrolledDropdown>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
                   <Link style={{color: '#666'}} to='/scholarships'>Scholarships</Link>
                 </DropdownToggle>
-                <DropdownMenu right>
-                  <DropdownItem>
-                    <NavLink style={{color: '#666'}} href='/recipients'>Recipients</NavLink>
-                  </DropdownItem>
-                  <DropdownItem>
-                    <NavLink style={{color: '#666'}} href='/memorial'>Memorial Scholarships</NavLink>
-                  </DropdownItem>
+                <DropdownMenu>
+                    <Link style={{color: '#666'}} to='/recipients'><DropdownItem>Recipients</DropdownItem></Link>
+                    <Link style={{color: '#666'}} to='/memorial'><DropdownItem>Memorial Scholarships</DropdownItem></Link>
                 </DropdownMenu>
               </UncontrolledDropdown>
               <UncontrolledDropdown nav inNavbar>
@@ -97,27 +87,18 @@ export default class PSRFNav extends React.Component {
               </UncontrolledDropdown>
             </Nav>
             <div className='social-links social-nav'>
-              {/* Instagram */}
               <a href='https://instagram.com/psrfoundation' rel='noopener noreferrer' target='_blank'>
                 <FaInstagram mask={['circle']} />
               </a>
-
-              {/* Twitter */}
               <a href='https://twitter.com/psrfoundation' rel='noopener noreferrer' target='_blank'>
                 <FaTwitterSquare />
               </a>
-
-              {/* Facebook */}
               <a href='https://facebook.com/PSRFoundation' rel='noopener noreferrer' target='_blank'>
                 <FaFacebookSquare />
               </a>
-
-              {/* LinkedIn */}
               <a href='https://linkedin.com/company/phi-sigma-rho-foundation_2' rel='noopener noreferrer' target='_blank'>
                 <FaLinkedin />
               </a>
-
-              {/* Pinterest */}
               <a href='https://pinterest.com/psrfoundation' rel='noopener noreferrer' target='_blank'>
                 <FaPinterestSquare />
               </a>

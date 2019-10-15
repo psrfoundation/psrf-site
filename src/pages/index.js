@@ -15,9 +15,11 @@ import publications from '../img/psrf/publications.png'
 import philanthropy from '../img/psrf/philanthropy.png'
 
 export default class IndexPage extends React.Component {
-  componentWillMount() {
+
+  constructor(props) {
+    super(props)
     /* Instagram (Uses instafeed.js) */
-    var feed = new Instafeed({
+    const feed = new Instafeed({
       get: 'user',
       userId: '1441765604',
       clientId: '1819a410b0e245eabd157558a0c1840d',
@@ -46,6 +48,10 @@ export default class IndexPage extends React.Component {
       js.src = "https://connect.facebook.net/en_US/sdk.js";
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk')); */
+  }
+
+  componentDidMount() {
+
   }
 
   render() {

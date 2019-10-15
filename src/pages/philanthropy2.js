@@ -31,7 +31,7 @@ export default class PhilanthropyPage extends React.Component {
                 <li><b>Organize a Walk:</b> No Light the Night Walks in your area? Chapters can receive a Light the Night Kit from LLS to hold their very own walk on or around campus.</li>
                 <li><b>Create Your Own Event:</b> Phi Rho Your Boat? Phi 5K? Lemonade for Leukemia? These are just a few of the great events chapters already do! Create and hold your own event, and submit your donations online.</li>
               </ul>
-              <p><a target='_blank' href='https://pages.lls.org/ltn/2019/phisigmarho'><b>Join the Phi Sigma Rho Foundation team now!</b></a></p>
+              <p><a target='_blank' rel='noopener noreferrer' href='https://pages.lls.org/ltn/2019/phisigmarho'><b>Join the Phi Sigma Rho Foundation team now!</b></a></p>
 
               <p>For further questions, please contact <a href='mailto:philanthropy@phisigmarhofoundation.org'>philanthropy@phisigmarhofoundation.org</a>.</p>
 

@@ -22,9 +22,12 @@ const TemplateWrapper = ({ children }) => (
     render={data => (
       <div>
         <Helmet>
-          <html lang='en' />
+          {/*<html lang='en' />*/}
           <title>{data.site.siteMetadata.title}</title>
           <meta name='description' content={data.site.siteMetadata.description} />
+
+          {/*<!-- Reactstrap / Bootstrap CSS -->*/}
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"></link>
 
           <link rel='apple-touch-icon' sizes='180x180' href='/img/apple-touch-icon.png' />
           <link rel='icon' type='image/png' href='/img/favicon-32x32.png' sizes='32x32' />
@@ -34,9 +37,9 @@ const TemplateWrapper = ({ children }) => (
 
           {/*<!-- Tekton Pro (Bold) -->*/}
           <link rel="stylesheet" href="https://use.typekit.net/veu6xzn.css" />
+          <link href='https://fonts.googleapis.com/css?family=Quicksand|Rock+Salt' rel='stylesheet' />
 
-          {/*<!-- Reactstrap / Bootstrap CSS -->*/}
-          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"></link>
+
 
           <meta name='theme-color' content='#fff' />
 
@@ -45,9 +48,11 @@ const TemplateWrapper = ({ children }) => (
           <meta property='og:url' content='/' />
           <meta property='og:image' content='/img/og-image.jpg' />
 
-          <link href='https://fonts.googleapis.com/css?family=Quicksand|Rock+Salt' rel='stylesheet' />
           {/* Bulma Override Hack */}
           <style type="text/css">{`
+            .dropdown-item {
+              font-size: 1rem;
+            }
             .dropdown-item:active {
               background-color: red;
             }
