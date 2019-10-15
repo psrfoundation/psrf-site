@@ -35,7 +35,8 @@ export default class Philanthropy2Page extends React.Component {
               <p>As part of the Phi Sigma Rho Foundation team, chapters will be provided a login for a specific Light the Night Walk team page where they can submit their donations to The Leukemia and Lymphoma Society. All team pages are linked to the Foundation team page.</p>
               <br />
               <p><img style={{ marginLeft: 'auto', marginRight: 'auto', display: 'block' }} src={light_the_night_second} alt="PSR Girls" /></p>
-              <h3>3 Ways to Participate (both Active &amp; Alumnae)</h3>
+              <br />
+              <h3 style={{textAlign: 'center'}}>3 Ways to Participate (both Active &amp; Alumnae)</h3>
               <ul>
                 <li><h4 style={{ display: 'inline' }}>Find a Walk: </h4><p style={{ display: 'inline' }}>LLS already provides over 200 walks throughout the nation! Find a walk near you and start raising funds for your team and for LLS.</p></li>
                 <li><h4 style={{ display: 'inline' }}>Organize a Walk: </h4><p style={{ display: 'inline' }}>No Light the Night Walks in your area? Chapters can receive a Light the Night Kit from LLS to hold their very own walk on or around campus.</p></li>
@@ -43,10 +44,10 @@ export default class Philanthropy2Page extends React.Component {
               </ul>
               <a href='https://pages.lls.org/ltn/2019/phisigmarho' className='button is-large is-rounded' style={{ fontFamily: 'Quicksand', fontWeight: 'bold', minWidth: '200px', display: 'block', color: '#8e2344', backgroundColor: 'white', border: '3px #8e2344 solid', borderRadius: 0 }}>Join our Team!</a>
               <br />
-              <p style={{ textAlign: 'center' }}>For further questions, please contact <a style={{ wordBreak: 'break-word' }} href='mailto:philanthropy@phisigmarhofoundation.org'>philanthropy@phisigmarhofoundation.org</a>.</p>
+              <p style={{ textAlign: 'center', fontStyle: 'italic' }}>For further questions, please contact <a style={{ wordBreak: 'break-word' }} href='mailto:philanthropy@phisigmarhofoundation.org'>philanthropy@phisigmarhofoundation.org</a>.</p>
               <br />
               <h1 style={{ fontSize: '2.5em', textAlign: 'center' }}>DreamGirls Initiative</h1>
-              <iframe style={{ marginLeft: 'auto', marginRight: 'auto', display: 'block', width: '725px', height: '455px' }} width="725" height="455" src="//www.youtube.com/embed/QuU5F7yWN3g" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe style={{ marginLeft: 'auto', marginRight: 'auto', display: 'block', width: '725px', height: '455px' }} width="725" height="455" src="https://www.youtube.com/embed/QuU5F7yWN3g" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <br />
 
               <p>The Phi Sigma Rho Foundation is excited to announce a partnership with The DreamGirls Initiative! Starting in Spring 2020, this partnership will provide service and leadership opportunities for active and alumnae organizations of Phi Sigma Rho to support the next generation of women in engineering through engineering-focused programming for middle school girls. These programs will be transferable to schools, Scout troops, community shelters, and more!  Additional details and information will be coming out soon about how both actives and alumnae can get involved in this partnership.</p>

@@ -7,6 +7,10 @@ import psrf_logo_square from '../img/psrf_logo_square.png'
 import janelle from '../img/psrf/board/janelle.jpg'
 import rosie from '../img/psrf/board/rosie.jpg'
 import lexi from '../img/psrf/board/lexi.jpg'
+import elana from '../img/psrf/board/elana.jpg'
+import ashley from '../img/psrf/board/ashley.jpg'
+import cailin from '../img/psrf/board/cailin.jpg'
+import kendall from '../img/psrf/board/kendall.jpg'
 
 export default class VolunteersPage extends React.Component {
   render() {
@@ -25,63 +29,63 @@ export default class VolunteersPage extends React.Component {
                   <img src={janelle} />
                   <h4>Janelle Becker</h4>
                   <div>President</div>
-                  <small>Beta – The Ohio State University</small>
+                  <div>Beta – The Ohio State University</div>
                   <small><a href='mailto:president@phisigmarhofoundation.org'>president@phisigmarhofoundation.org</a></small>
                 </div>
                 <div className='board-volunteers'>
-                  <img src='https://placehold.it/200x200' />
+                  <img src={cailin} />
                   <h4>Cailin Kilduff Stine</h4>
                   <div>Vice President of Strategy</div>
-                  <small>Gamma - University of Dayton</small>
+                  <div>Gamma - University of Dayton</div>
                   <small><a href='mailto:strategy@phisigmarhofoundation.org'>strategy@phisigmarhofoundation.org</a></small>
                 </div>
                 <div className='board-volunteers'>
-                  <img src='https://placehold.it/200x200' />
+                  <img src={elana} />
                   <h4>Elana Chapman</h4>
                   <div>Vice President of Donor Engagement</div>
-                  <small>Gamma - The University of Dayton</small>
+                  <div>Gamma - The University of Dayton</div>
                   <small><a href='mailto:donorengagement@phisigmarhofoundation.org'>donorengagement@phisigmarhofoundation.org</a></small>
                 </div>
                 <div className='board-volunteers'>
-                  <img src='https://placehold.it/200x200' />
+                  <img src={kendall} />
                   <h4>Kendall Murphy</h4>
                   <div>Vice President of Publicity</div>
-                  <small>Epsilon - University of Kentucky</small>
+                  <div>Epsilon - University of Kentucky</div>
                   <small><a href='mailto:publicity@phisigmarhofoundation.org'>publicity@phisigmarhofoundation.org</a></small>
                 </div>
                 <div className='board-volunteers'>
-                  <img src='https://placehold.it/200x200' />
+                  <img src={psrf_logo_square} />
                   <h4>Victoria Platt</h4>
                   <div>Vice President of Programming</div>
-                  <small>Beta – The Ohio State University</small>
+                  <div>Beta – The Ohio State University</div>
                   <small><a href='mailto:programming@phisigmarhofoundation.org'>programming@phisigmarhofoundation.org</a></small>
                 </div>
                 <div className='board-volunteers'>
-                  <img src='https://placehold.it/200x200' />
+                  <img src={ashley} />
                   <h4>Ashley Mohler</h4>
                   <div>Vice President of Development</div>
-                  <small>Alpha Zeta - Wright State University</small>
+                  <div>Alpha Zeta - Wright State University</div>
                   <small><a href='mailto:development@phisigmarhofoundation.org'>development@phisigmarhofoundation.org</a></small>
                 </div>
                 <div className='board-volunteers'>
                   <img src={rosie} />
                   <h4>Rosalie Krob</h4>
                   <div>Treasurer</div>
-                  <small>Alpha – Purdue University</small>
+                  <div>Alpha – Purdue University</div>
                   <small><a href='mailto:treasurer@phisigmarhofoundation.org'>treasurer@phisigmarhofoundation.org</a></small>
                 </div>
                 <div className='board-volunteers'>
                   <img src={lexi} />
                   <h4>Alexis Heironimus</h4>
                   <div>Secretary</div>
-                  <small>Alpha Zeta – Wright State University</small>
+                  <div>Alpha Zeta – Wright State University</div>
                   <small><a href='mailto:secretary@phisigmarhofoundation.org'>secretary@phisigmarhofoundation.org</a></small>
                 </div>
                 <div className='board-volunteers'>
                   <img src={psrf_logo_square} />
                   <h4>Kathy Lyall</h4>
                   <div>Ex-Officio</div>
-                  <small>Gamma – University of Dayton</small>
+                  <div>Gamma – University of Dayton</div>
                   <small><a href='mailto:exofficio@phisigmarhofoundation.org'>exofficio@phisigmarhofoundation.org</a></small>
                 </div>
               </div>
