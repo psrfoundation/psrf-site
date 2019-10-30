@@ -29,6 +29,16 @@ export default class MemorialScholarshipPage extends React.Component {
 
               <p><a href='https://www.classy.org/give/238204/#!/donation/checkout'><b>Donate to the Sarah Rogers McClure Memorial Scholarship Fund</b></a></p>
 
+              <p><Link to='/'>← Go Home</Link></p>
+            </div>
+          </div>
+        </section>
+      </Layout>
+    )
+  }
+}
+
+/* Pending donor approval:
               <h3>The Anne Louise Roach Legacy Scholarship</h3>
               <img src={alr} style={{ margin: '20px', marginLeft: 0, marginBottom: 0, float: 'left', width: '50%', maxWidth: '220px' }} />
               <br />
@@ -42,12 +52,4 @@ export default class MemorialScholarshipPage extends React.Component {
               <p style={{marginTop: '20px'}}>Sister Heather Monigan and her father, Francis Monigan before the Phi Rho formal, just before he passed.</p>
               
               <p><a href='https://www.classy.org/give/238204/#!/donation/checkout'><b>Donate to the Francis J. Monigan Scholarship Fund</b></a></p>
-
-              <p><Link to='/'>← Go Home</Link></p>
-            </div>
-          </div>
-        </section>
-      </Layout>
-    )
-  }
-}
+*/

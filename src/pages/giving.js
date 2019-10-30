@@ -30,7 +30,7 @@ export default class GivingPage extends React.Component {
               <h3>Give by Mail</h3>
               <p>To give a gift by mail, please send a check or money order to Phi Sigma Rho Foundation,  PO Box 7021, Westchester, IL 60154.</p>
               <h3>Matching Gift</h3>
-              <p>Your employer, or your spouse's employer, may offer a gift matching program, which could match, double or more to your gift. Each company has its own guidelines for gift matching programs.</p><p>If you have any questions, please contact our Christine Jackson at <a href='mailto:assistanttreasurer@phisigmarhofoundation.org' style={{ wordWrap: 'break-word' }}>assistanttreasurer@phisigmarhofoundation.org</a>.</p>
+              <p>Your employer, or your spouse's employer, may offer a gift matching program, which could match, double or more to your gift. Each company has its own guidelines for gift matching programs.</p><p>If you have any questions, please contact Christine Jackson at <a href='mailto:assistanttreasurer@phisigmarhofoundation.org' style={{ wordWrap: 'break-word' }}>assistanttreasurer@phisigmarhofoundation.org</a>.</p>
               <h3>Recurring Gift</h3>
               <p>A monthly gift to the Phi Sigma Rho Foundation is an easy and convenient way to support the sisterhood. Start your recurring gift today!</p>
               <br />

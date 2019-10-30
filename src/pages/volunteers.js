@@ -47,7 +47,7 @@ export default class VolunteersPage extends React.Component {
                   <small><a href='mailto:donorengagement@phisigmarhofoundation.org'>donorengagement@phisigmarhofoundation.org</a></small>
                 </div>
                 <div className='board-volunteers'>
-                  <img src={kendall} />
+                  <div class="crop"><img src={kendall} /></div>
                   <h4>Kendall Murphy</h4>
                   <div>Vice President of Publicity</div>
                   <div>Epsilon - University of Kentucky</div>
@@ -154,6 +154,13 @@ export default class VolunteersPage extends React.Component {
                   <div>Assistant Treasurer</div>
                   <span></span>
                   <small><a href='mailto:assistanttreasurer@phisigmarhofoundation.org'>assistanttreasurer@phisigmarhofoundation.org</a></small>
+                </div>
+                <div className='board-volunteers'>
+                  <img src='http://placehold.it/200x200' style={{ display: 'none' }} />
+                  <h4>Jennifer Darado-Barman</h4>
+                  <div>Service Chair</div>
+                  <span></span>
+                  <small><a href="mailto:service@phisigmarhofoundation.org">service@phisigmarhofoundation.org</a></small>
                 </div>
               </div>
 

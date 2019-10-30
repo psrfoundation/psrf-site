@@ -67,7 +67,7 @@ export default class DonorsPage extends React.Component {
                   <ExpansionPanel>
                     <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}><h3 style={{ margin: 0 }}>Collegiate Programs</h3></ExpansionPanelSummary>
                     <ExpansionPanelDetails style={{ display: 'block' }}>
-                      <p><b>The Penguin Pals Program</b> is designed for all college students! We understand that money can be tight in college! Any undergraduate donor who contributes a total of $101 during their active membership will receive a silver penguin charm.</p>
+                      <p><b>The Penguin Pals Program</b> is designed for all college students! We understand that money can be tight in college! Any undergraduate donor who contributes a total of $100 during their active membership will receive a silver penguin charm.</p>
                       <p><b>After the Cap-and-Gown</b> is designed for recent Phi Sigma Rho alumnae. Donors who make donations of at least $300 within five years of graduation from any undergraduate program will receive a silver pyramid charm.</p>
                     </ExpansionPanelDetails>
                   </ExpansionPanel>

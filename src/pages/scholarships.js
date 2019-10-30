@@ -21,7 +21,7 @@ export default class ScholarshipPage extends React.Component {
                 With the help of our generous donors, the Phi Sigma Rho Foundation has provided scholarships since 2009. ​Recipients are selected on the basis of the applicant's scholastic record, service to Phi Sigma Rho and the community, campus involvement, and recommendations from references.
               </p>
               <ul>
-                <li>The Foundation currently provides four $1,000 scholarships each year.</li>
+                <li>The Foundation currently provides six $1,000 scholarships each year.</li>
                 <li>Eligible applicants are undergraduate and graduate members of Phi Sigma Rho in good standing.</li>
                 <li>Scholarship applications are <strong>due March 1</strong> each year.</li>
                 <li>Recipients are awarded in July at the National meeting for use in the upcoming academic year.</li>
@@ -34,7 +34,7 @@ export default class ScholarshipPage extends React.Component {
                       <div>
                         <Link to='/winners'><img src={scholarships} className='circle' /></Link>
                         <p className='title'><Link to='/recipients'>Scholarship Winners</Link></p>
-                        <p className=''>The Foundation has awarded scholarships since 2005 and expanded from one scholarship to four awards each year. Learn about the fabulous sisters who were awarded Phi Sigma Rho Foundation scholarships! </p>
+                        <p className=''>The Foundation has awarded scholarships since 2005 and expanded from one scholarship to six awards each year. Learn about the fabulous sisters who were awarded Phi Sigma Rho Foundation scholarships! </p>
                       </div>
                     </div>
                     <div className='column has-text-centered'>
