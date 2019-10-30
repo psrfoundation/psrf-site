@@ -47,7 +47,7 @@ export default class VolunteersPage extends React.Component {
                   <small><a href='mailto:donorengagement@phisigmarhofoundation.org'>donorengagement@phisigmarhofoundation.org</a></small>
                 </div>
                 <div className='board-volunteers'>
-                  <div class="crop"><img src={kendall} /></div>
+                  <img src={kendall} />
                   <h4>Kendall Murphy</h4>
                   <div>Vice President of Publicity</div>
                   <div>Epsilon - University of Kentucky</div>
