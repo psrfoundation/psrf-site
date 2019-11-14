@@ -57,16 +57,16 @@ export default class ScholarshipPage extends React.Component {
 
               <h3>Merit Scholarship</h3>
               <p>This scholarship is given to a sister who has excelled academically, as well as demonstrating exceptional acts of community service; leadership, volunteerism, and meaningful participation in Phi Sigma Rho and/or other activities. Financial need will not be considered in determining the winner.</p>
-              <p><a href='pdf/2020-merit-scholarship-application.pdf'><FaFilePdf /> Download Application</a></p>
+              <p><a href='/pdf/2020-merit-scholarship-application.pdf'><FaFilePdf /> Download Application</a></p>
               <h3>Leadership Scholarship</h3>
               <p>This scholarship is given to a sister who is a leader in her chapter and community, demonstrated by exceptional acts of community service; volunteerism; and meaningful participation in Phi Sigma Rho and other activities.  Although academic achievement is not considered in determining the winner of this scholarship, a minimum of a 2.75/4.00 GPA is required to qualify. Financial need will not be considered in determining the winner.</p>
-              <p><a href='pdf/2020-leadership-scholarship-application.pdf'><FaFilePdf /> Download Application</a></p>
+              <p><a href='/pdf/2020-leadership-scholarship-application.pdf'><FaFilePdf /> Download Application</a></p>
               <h3>Philanthropy &amp; Service Scholarship</h3>
               <p>This scholarship is given to a sister who has actively participated in the chapter’s philanthropy and service project for a minimum of 10 hours of community service this academic year, and meaningful participation in Phi Sigma Rho and/or other activities. Although academic achievement is not considered in determining the winner, a minimum of a 2.75/4.00 GPA is required to qualify. Financial need will not be considered in determining the winner.</p>
-              <p><a href='pdf/2020-philanthropy-and-service-scholarship-application.pdf'><FaFilePdf /> Download Application</a></p>
+              <p><a href='/pdf/2020-philanthropy-and-service-scholarship-application.pdf'><FaFilePdf /> Download Application</a></p>
               <h3>Sarah Rogers McClure Memorial Scholarship</h3>
               <p>This scholarship recognizes a sister who showcases the strength and character traits that Sarah demonstrated on a daily basis, as well as a positive attitude that she shared with everyone that had the pleasure of knowing her.</p>
-              <p><a href='pdf/2020-sarah-mcclure-scholarship-application.pdf'><FaFilePdf /> Download Application</a></p>
+              <p><a href='/pdf/2020-sarah-mcclure-scholarship-application.pdf'><FaFilePdf /> Download Application</a></p>
               
               <div className='red-section section full-width-image-container' style={{marginBottom: '2.5em'}}>
                 <section className='container' style={{ textAlign: 'center' }}>
