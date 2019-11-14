@@ -66,14 +66,8 @@ export default class ScholarshipPage extends React.Component {
               <p><a href='pdf/2020-philanthropy-and-service-scholarship-application.pdf'><FaFilePdf /> Download Application</a></p>
               <h3>Sarah Rogers McClure Memorial Scholarship</h3>
               <p>This scholarship recognizes a sister who showcases the strength and character traits that Sarah demonstrated on a daily basis, as well as a positive attitude that she shared with everyone that had the pleasure of knowing her.</p>
-              <p><a href='pdf/2020-sarah-mcclure-memorial-scholarship-application.pdf'><FaFilePdf /> Download Application</a></p>
-              <h3>Francis J. Monigan Memorial Scholarship</h3>
-              <p>This scholarship is recognizes a sister who demonstrates grit and compassion towards others, with a strong preference given to engineering majors.</p>
-              <p><a href='#'><FaFilePdf /> Download Application</a></p>
-              <h3>Anne Louise Roach Legacy Scholarship</h3>
-              <p>The scholarship is given to a Phi Rho "legacy" member (as defined by the Phi Sigma Rho National Sorority) in good standing majoring in engineering or engineering technology, who personifies what it means to be a Phi Rho, with excellence in friendship, scholarship, and philanthropy, as demonstrated in their own achievements.</p>
-              <p><a href='#'><FaFilePdf /> Download Application</a></p>
-
+              <p><a href='pdf/2020-sarah-mcclure-scholarship-application.pdf'><FaFilePdf /> Download Application</a></p>
+              
               <div className='red-section section full-width-image-container' style={{marginBottom: '2.5em'}}>
                 <section className='container' style={{ textAlign: 'center' }}>
                   <h2>Interested in creating a scholarship fund for Phi Sigma Rho?</h2>
@@ -100,3 +94,16 @@ export default class ScholarshipPage extends React.Component {
     )
   }
 }
+
+/*
+
+Pending Donor Approval
+
+<h3>Francis J. Monigan Memorial Scholarship</h3>
+              <p>This scholarship is recognizes a sister who demonstrates grit and compassion towards others, with a strong preference given to engineering majors.</p>
+              <p><a href='#'><FaFilePdf /> Download Application</a></p>
+              <h3>Anne Louise Roach Legacy Scholarship</h3>
+              <p>The scholarship is given to a Phi Rho "legacy" member (as defined by the Phi Sigma Rho National Sorority) in good standing majoring in engineering or engineering technology, who personifies what it means to be a Phi Rho, with excellence in friendship, scholarship, and philanthropy, as demonstrated in their own achievements.</p>
+              <p><a href='#'><FaFilePdf /> Download Application</a></p>
+
+*/
