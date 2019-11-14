@@ -11,6 +11,7 @@ import elana from '../img/psrf/board/elana.jpg'
 import ashley from '../img/psrf/board/ashley.jpg'
 import cailin from '../img/psrf/board/cailin.jpg'
 import kendall from '../img/psrf/board/kendall.jpg'
+import kathy from '../img/psrf/board/kathy_lyall.jpg'
 
 export default class VolunteersPage extends React.Component {
   render() {
@@ -82,7 +83,7 @@ export default class VolunteersPage extends React.Component {
                   <small><a href='mailto:secretary@phisigmarhofoundation.org'>secretary@phisigmarhofoundation.org</a></small>
                 </div>
                 <div className='board-volunteers'>
-                  <img src={psrf_logo_square} />
+                  <img src={kathy} />
                   <h4>Kathy Lyall</h4>
                   <div>Ex-Officio</div>
                   <div>Gamma – University of Dayton</div>
