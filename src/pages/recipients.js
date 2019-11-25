@@ -42,7 +42,7 @@ export default class RecipientsPage extends React.Component {
                   <span>Alpha Beta - University of Cincinnati</span>
                 </div>
                 <div className='scholarship-winner'>
-                  <h2>Mackenzie Foster</h2>
+                  <h2>Mckenzie Foster</h2>
                   <span>Sigma - Oregon State University</span>
                 </div>
                 <div className='scholarship-winner'>
