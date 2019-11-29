@@ -22,8 +22,10 @@ export default class IndexPage extends React.Component {
     const feed = new Instafeed({
       get: 'user',
       userId: '1441765604',
+      //clientId: '1819a410b0e245eabd157558a0c1840d',
+      //accessToken: '1441765604.1819a41.f5cbf0c0e447426f921122493606938b',
       clientId: '1819a410b0e245eabd157558a0c1840d',
-      accessToken: '1441765604.1819a41.f5cbf0c0e447426f921122493606938b',
+      accessToken: 'a235b84b9d944151b48974de1dbde423',
       resolution: 'low_resolution',
       limit: 15,
       template: '<a href="{{link}}"><img style="width: 170px; height: 170px" src="{{image}}" /></a>'
