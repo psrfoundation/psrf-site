@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Join Us in Building the Future for our Sisters
-date: 2019-11-30T04:56:38.756Z
+date: 2019-11-25T16:56:00.000Z
 description: We have officially launched our 2019 End of Year Campaign!
 featuredpost: true
 featuredimage: /img/eoy2019.jpg
