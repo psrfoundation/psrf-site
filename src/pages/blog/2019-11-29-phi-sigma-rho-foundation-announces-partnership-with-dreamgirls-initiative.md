@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Phi Sigma Rho Foundation Announces Partnership with DreamGirls Initiative!
-date: 2019-10-05T04:11:43.331Z
+date: 2019-10-04T16:00:00.000Z
 description: >-
   The Phi Sigma Rho Foundation is excited to announce a partnership with The
   DreamGirls Initiative! 
