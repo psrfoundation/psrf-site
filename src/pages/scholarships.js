@@ -83,7 +83,7 @@ export default class ScholarshipPage extends React.Component {
 
               <img src={psr_girls_5} />
               <br/><br/><br/>
-              <p style={{textAlign: 'center'}}>If you have any questions about the Phi Sigma Rho Foundation scholarships, please contact <a href="mailto:scholarships@phisigmarhofoundation.org" style={{wordWrap: 'break-word'}}>scholarships@phisigmarhofoundation.org</a></p>
+              <p style={{textAlign: 'center'}}>If you have any questions about the Phi Sigma Rho Foundation scholarships, please contact <a href="mailto:scholarship@phisigmarhofoundation.org" style={{wordWrap: 'break-word'}}>scholarship@phisigmarhofoundation.org</a></p>
               <br />
               <br />
               <p><Link to='/'>← Go Home</Link></p>
