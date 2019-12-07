@@ -5,7 +5,7 @@ date: 2019-11-30T16:30:00.000Z
 description: >-
   Join the Phi Sigma Rho teams across the nation in support of our philanthropic
   goal towards the Leukemia and Lymphoma Society! 
-featuredpost: true
+featuredpost: false
 featuredimage: /img/img_20191126_171554_715.jpg
 tags:
   - '#philanthropy #lightthenight #PSRFoundation #lightthenightwithPSR'
