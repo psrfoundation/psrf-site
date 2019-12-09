@@ -39,7 +39,16 @@ export default class Index extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <h1>Contact</h1>
+              <h1>Contact Us</h1>
+              <p>Have a question about your gift to the Foundation? Curious about setting up a recurring donation or designating your gift to specific fund? Contact a director for all of your needs.</p>
+              <p>
+                <strong>The Phi Sigma Rho Foundation</strong><br/>
+                <strong>P.O. Box 7021</strong><br/>
+                <strong>Westchester, IL 60154</strong></p>
+              <p>
+                Phone: <strong>937-815-0268</strong><br/>
+                Email: <strong><a href="mailto:psrfoundation@phisigmarhofoundation.org">psrfoundation@phisigmarhofoundation.org</a></strong>
+             </p>
               <form
                 name="contact"
                 method="post"

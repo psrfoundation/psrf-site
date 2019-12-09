@@ -137,7 +137,7 @@ export default class VolunteersPage extends React.Component {
                 </div>
                 <div className='board-volunteers'>
                   <img src='http://placehold.it/200x200' style={{ display: 'none' }} />
-                  <h4>Victoria Platt</h4>
+                  <h4>Samantha Rohner</h4>
                   <div>Scholarship Chair</div>
                   <span></span>
                   <small><a href='mailto:scholarship@phisigmarhofoundation.org'>scholarship@phisigmarhofoundation.org</a></small>
