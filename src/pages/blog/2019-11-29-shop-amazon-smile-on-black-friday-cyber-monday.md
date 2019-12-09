@@ -5,7 +5,7 @@ date: 2019-11-29T06:01:00.000Z
 description: >-
   Stay inside, shop online, and support the Phi Sigma Rho Foundation while doing
   so this holiday season! 
-featuredpost: true
+featuredpost: false
 featuredimage: /img/amazon.jpg
 tags:
   - '#CyberMonday #BlackFriday #EOY #PSRFoundation'
