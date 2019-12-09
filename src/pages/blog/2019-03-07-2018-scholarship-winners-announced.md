@@ -3,7 +3,7 @@ templateKey: blog-post
 title: 2018 Scholarship Winners Announced
 date: 2018-06-23T04:42:02.505Z
 description: ' '
-featuredpost: false
+featuredpost: true
 featuredimage: /img/scholarships2020.jpg
 tags:
   - scholarship
