@@ -163,6 +163,44 @@ export const productPageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
+        heading
+        description
+        intro {
+          blurbs {
+            text
+          }
+          heading
+          description
+        }
+        main {
+          heading
+          description
+        testimonials {
+          author
+          quote
+        }
+        pricing {
+          heading
+          description
+          plans {
+            description
+            items
+            plan
+            price
+          }
+        }
+      }
+    }
+  }
+`
+
+// Old graphql
+/*
+export const productPageQuery = graphql`
+  query ProductPage($id: String!) {
+    markdownRemark(id: { eq: $id }) {
+      frontmatter {
+        title
         image {
           childImageSharp {
             fluid(maxWidth: 2048, quality: 100) {
@@ -245,3 +283,4 @@ export const productPageQuery = graphql`
     }
   }
 `
+*/
