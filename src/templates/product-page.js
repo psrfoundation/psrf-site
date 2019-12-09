@@ -84,11 +84,11 @@ export const ProductPageTemplate = ({
               <div
                 className="full-width-image-container"
                 style={{
-                  backgroundImage: `url(${
-                    fullImage.childImageSharp
-                      ? fullImage.childImageSharp.fluid.src
-                      : fullImage
-                  })`,
+                  //backgroundImage: `url(${
+                  //  fullImage.childImageSharp
+                  //    ? fullImage.childImageSharp.fluid.src
+                  //    : fullImage
+                  //})`,
                 }}
               />
               <h2 className="has-text-weight-semibold is-size-2">
