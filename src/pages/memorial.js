@@ -2,6 +2,8 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Layout from '../components/Layout'
 
+import { FaFilePdf } from 'react-icons/fa'
+
 import srm from '../img/srm.jpg'
 import alr from '../img/alr.jpg'
 // import fjm from 'img/fjm.jpg'
@@ -28,6 +30,32 @@ export default class MemorialScholarshipPage extends React.Component {
               <p>Upon her death, a variety of tributes were made in her honor. Notably, donations of over $8,000 were made in her name to the Komen Tissue Bank, and a conference room as named in her honor at Procter &amp; Gamble, with a plaque reading "In Celebration of Her Service to Others; Your faith, friendship, and courage insipre us and continue to lift us up. Thank you for touching our hearts and lives in such a special way."</p>
 
               <p><a href='https://www.classy.org/give/238204/#!/donation/checkout'><b>Donate to the Sarah Rogers McClure Memorial Scholarship Fund</b></a></p>
+
+              <h3>The Francis J. Monigan Memorial Scholarship</h3>
+              <img src={fjmFather} style={{ margin: '20px', marginLeft: 0, marginBottom: 0, float: 'left', width: '300px' }} />
+              <p>The Francis J. Monigan Memorial Scholarship has been established through the Phi Sigma Rho Foundation to further enable Mr. Monigan's legacy to keep helping and supporting 
+              women in engineering in his name. The first little girl he helped to encourage into engineering was our University of Dayton &ndash; Gamma Chapter alumna (Xi class) sister Heather
+              Monigan, with his encouraging words: "If you study engineering, you can afford your art supplies on the side."  Wise words; she actually listened. Heather followed in <em>both</em> her
+              brother John's (also a University of Dayton graduate and Alpha class Phi Rho supporter) and father's footsteps, graduating with a Bachelor's in Computer Engineering (within the department
+              of Electrical Engineering).</p>
+              <p>Mr. Monigan earned his degreen in Electrical Engineering by going to night classes at City College of New York while juggling work and family. He chose this degree because it was the
+              most difficult, and he knew it would make him a problem solver with skills applicable in any line of work. In some ways, Mr. Monigan was not your typical engineer, since he applied his
+              degree in the financial industry, starting out (literally) in the mailroom of Wall Street and working his way up to the executive suites. (He was, however, a typical engineering in that
+              he hated ordering pizza over the phone &ndash; a traid that both his kids inherited.) He wanted more for his kids and always emphasized the values of tenacity and grit. Throughout his career
+              he mentored what some would classify as the "office outsiders", but Mr. Monigan just saw potential in many forms. If you worked hard and showed interest, he would take you under his wing, 
+              regardless of who you were or where you came from. In many ways, he was a very old-fashioned man, but when he saw how interested his daughter was in math and science, he never once waivered
+              in his determination to send his daughter to a four-year university, the first woman in the family.</p>
+              <p>Mr. Monigan was a fairly quiet man, unless you asked him about his work, and then you would get a dissertation on stocks, bonds, market trends and interest rates; he loved his work, and
+              he excelled at it. (Heather deeply regrets not listening more closely to the investment advice.) He was witty, enjoyed Star Trek, good food, baseball, and he could never pass by an animal
+              without petting one. Heather always had a deeply special relationship with her dad and felt that he &ldquo;got&rdquo; her. He certainly understood how difficult engineering was, and he wanted
+              her to be able to support herself.</p>
+              <p>In the spring of 1999, Phi Sigma Rho enabled Heather to dance with her daddy at the Father Daughter Dance. Unfortunately, it was his last dance, as he passed away after a brave, but painfully
+              short, battle with cancer on September 15, 1999. Mr. Monigan never saw his daughter graduate with her engineering degree that May, nor did he get to dance with her at her wedding, or see on
+              Earth all the wonderful things the next twenty years of life blessed her with.</p>
+              <p>In 2019, with the 20 year anniversary of his passing, his legacy will now enable the next round of young engineering women to follow their dreams in his name. Mr. Monigan knew how hard
+              engineering was, and he wanted us all to stick with it!</p>
+
+              <p><a href='/pdf/2020-fjm-memorial-scholarship-application.pdf'><FaFilePdf /> Download Application</a></p>
 
               <p><Link to='/'>← Go Home</Link></p>
             </div>
