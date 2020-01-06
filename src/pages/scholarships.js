@@ -67,6 +67,20 @@ export default class ScholarshipPage extends React.Component {
               <h3>Sarah Rogers McClure Memorial Scholarship</h3>
               <p>This scholarship recognizes a sister who showcases the strength and character traits that Sarah demonstrated on a daily basis, as well as a positive attitude that she shared with everyone that had the pleasure of knowing her.</p>
               <p><a href='/pdf/2020-sarah-mcclure-scholarship-application.pdf'><FaFilePdf /> Download Application</a></p>
+              <h3>Francis J. Monigan Memorial Scholarship</h3>
+              <p>The Francis J. Monigan Memorial Scholarship recognizes a Phi Sigma Rho sister in good standing who demonstrates grit and compassion towards others, with a strong preference given to engineering majors. GPA is not considered for this award. This scholarship honors alumna member Heather Monigan's father, Francis, who was a strong supporter of Phi Sigma Rho and women in engineering.</p>
+              <p><a href='/pdf/2020-fjm-memorial-scholarship-application.pdf'><FaFilePdf /> Download Application</a></p>
+              <h3>Anne Louise Roach Legacy Scholarship</h3>
+              <p>The Anne Louise Roach Legacy Scholarship was created by Jennifer and Bryan Roach to recognize the first traditional mother-daughter legacy and exceptional achievments of
+              Anne Roach as she graduated from Purdue University in May 2019. Anne is a BS Chemical Engineer, having completed a five term co-op with Mead Johnson and Reckitt Benckiser and a
+              summer internship at Sazerac's Glenmore Distillery. In addition, Anne graduated with two minors: Spanish and Global Engineering, with three study abroad experiences in Peru, 
+              Switzerland, and Spain. Anne was a member of the Alpha Chapter as Director of Alumnae Affairs, Advisory Board, and Philanthropy Chair. Her campus involvement stretched beyond 
+              the sorority to include Professional Practice Ambassador, Cultural Companion to Purdue's Study Abroad office, Passport (member) to assist international students, and Officer 
+              in Omega Chi Epsilon (Chemical Engineering Honor Society). Anne was also involved in her community beyond the campus, teaching English as a second language to area fourth 
+              grade students as part of Ayude y Aprende Service Learning Project.</p>
+              <p>The Anne Louse Roach Legacy Scholarship recognizes the maturity of the sorority, the broad reaching impact of women in engineering, and the generational impact made by 
+              all members of Phi Sigma Rho.</p>
+              <p><a href='/pdf/2020-alr-legacy-scholarship-application.pdf'><FaFilePdf /> Download Application</a></p>
               
               <div className='red-section section full-width-image-container' style={{marginBottom: '2.5em'}}>
                 <section className='container' style={{ textAlign: 'center' }}>
