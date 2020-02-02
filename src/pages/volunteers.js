@@ -77,7 +77,7 @@ export default class VolunteersPage extends React.Component {
                 </div>
                 <div className='board-volunteers'>
                   <img src={lexi} />
-                  <h4>Alexis Heironimus</h4>
+                  <h4>Lexi Heironimus</h4>
                   <div>Secretary</div>
                   <div>Alpha Zeta – Wright State University</div>
                   <small><a href='mailto:secretary@phisigmarhofoundation.org'>secretary@phisigmarhofoundation.org</a></small>
