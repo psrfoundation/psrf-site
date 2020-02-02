@@ -15,9 +15,10 @@ export default class AboutPage extends React.Component {
               <p>Celebrate your Phi Rho Love this season by sending a Galentine to your sister! For $10 each, the Phi Sigma Rho Foundation will send your personalized message to any Phi Rho
               sister on February 13. Donations must be made by the end of the day on February 9. Happy Galentine&rsquo;s Day!</p>
 
-              <Link to='https://www.classy.org/give/267536/#!/donation/checkout'>Donate Today!</Link>
+              <Link to='https://give.classy.org/GalentinesDay2020'>Donate Today!</Link>
 
               <p><img src={galentine_2020} alt="Galentine 2020" /></p>
+              <p></p>
 
               <p><Link to='/'>← Go Home</Link></p>
             </div>
