@@ -12,7 +12,8 @@ tags:
 ---
 Celebrate your Phi Rho Love this season by sending a Galentine to your sister! For **$10 each**, the Phi Sigma Rho Foundation will send your _personalized message_ to any Phi Rho sister on February 13. 
 
-Purchase your Galentine for your sisters here: https://www.classy.org/give/267536/#!/donation/checkout
+Purchase your Galentine for your sisters here: \
+<https://www.classy.org/campaign/c267536>
 
 Once the purchase is complete, fill out the Google Form and enter in the information of the sister you would like sent a Galentine. 
 
