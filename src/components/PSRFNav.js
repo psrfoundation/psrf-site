@@ -63,6 +63,7 @@ export default class PSRFNav extends React.Component {
                   <Link style={{color: '#666'}} to='/giving'>Give Today</Link>
                 </DropdownToggle>
                 <DropdownMenu>
+                    <Link style={{color: '#666'}} to='https://www.classy.org/campaign/Phi-Sigma-Rho-Foundation-15th-Anniversary/c272650'><DropdownItem>15th Anniversary Campaign</DropdownItem></Link>
                     <Link style={{color: '#666'}} to='/donors'><DropdownItem>Donor Recognition</DropdownItem></Link>
                 </DropdownMenu>
               </UncontrolledDropdown>
