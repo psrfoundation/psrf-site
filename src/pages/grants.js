@@ -19,7 +19,8 @@ export default class LEAPPage extends React.Component {
               significant hardship due to the COVID-19 pandemic. Grant funds are to be used to continue the student's education for the current academic year (2019 &ndash; 2020).</p>
               <p>The purpose of the Orchid Relief Grants is to provide one-time, emergency grants, subject to the availability of funds, to initiated undergraduate and graduate members who are experiencing financial hardship due to the
               COVID-19 crisis. Grants of up to $500 will be given in one payment to approved applicants upon receipt of <strong><em>complete</em></strong> applications, supporting materials, and approval by the 
-              Grant Committee.Applications will be accepted and considered on a rolling basis until the program ends on June 15, 2020, or until funds are exhausted.</p>
+              Grant Committee. Applications will be accepted and considered on a rolling basis until the program ends on June 15, 2020, or until funds are exhausted. Please e-mail all applications
+              and supporting materials to <a href="mailto:programming@phisigmarhofoundation.org">programming@phisigmarhofoundation.org</a>.</p>
               <p>Please direct questions about the application to <a href="mailto:programming@phisigmarhofoundation.org">programming@phisigmarhofoundation.org</a>.</p>
               <p>If you would like to support the Orchid Relief Grants, please consider <a href="https://give.classy.org/orchidrelieffund">donating to the Phi Sigma Rho Foundation's General Fund</a> to support this need.</p>
               <p><a href='/pdf/2020-orchid-relief-grant-application.pdf'><FaFilePdf /> Apply Now!</a></p>
