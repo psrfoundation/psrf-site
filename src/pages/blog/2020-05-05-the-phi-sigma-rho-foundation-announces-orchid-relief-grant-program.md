@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: The Phi Sigma Rho Foundation Announces Orchid Relief Grant Program
+title: The Phi Sigma Rho Foundation Announces Orchid Relief Grant Program!
 date: 2020-05-05T12:21:57.018Z
 description: >-
   In response to the COVID-19 crisis, the Phi Sigma Rho Foundation has created
