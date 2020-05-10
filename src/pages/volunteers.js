@@ -11,7 +11,8 @@ import elana from '../img/psrf/board/elana.jpg'
 import ashley from '../img/psrf/board/ashley.jpg'
 import cailin from '../img/psrf/board/cailin.jpg'
 import kendall from '../img/psrf/board/kendall.jpg'
-import kathy from '../img/psrf/board/kathy_lyall.jpg'
+import kathleen from '../img/psrf/board/kathleen.jpg'
+import victoria from '../img/psrf/board/victoria.jpg'
 
 export default class VolunteersPage extends React.Component {
   render() {
@@ -55,7 +56,7 @@ export default class VolunteersPage extends React.Component {
                   <small><a href='mailto:publicity@phisigmarhofoundation.org'>publicity@phisigmarhofoundation.org</a></small>
                 </div>
                 <div className='board-volunteers'>
-                  <img src={psrf_logo_square} />
+                  <img src={victoria} />
                   <h4>Victoria Platt</h4>
                   <div>Vice President of Programming</div>
                   <div>Beta – The Ohio State University</div>
@@ -83,10 +84,10 @@ export default class VolunteersPage extends React.Component {
                   <small><a href='mailto:secretary@phisigmarhofoundation.org'>secretary@phisigmarhofoundation.org</a></small>
                 </div>
                 <div className='board-volunteers'>
-                  <img src={kathy} />
-                  <h4>Kathy Lyall</h4>
+                  <img src={kathleen} />
+                  <h4>Kathleen Vijaywergyia</h4>
                   <div>Ex-Officio</div>
-                  <div>Gamma – University of Dayton</div>
+                  <div>Beta &mdash; The Ohio State University</div>
                   <small><a href='mailto:exofficio@phisigmarhofoundation.org'>exofficio@phisigmarhofoundation.org</a></small>
                 </div>
               </div>
@@ -95,14 +96,14 @@ export default class VolunteersPage extends React.Component {
               <div className='board-volunteers-grid-container'>
                 <div className='board-volunteers'>
                   <img src='http://placehold.it/200x200' style={{ display: 'none' }} />
-                  <h4>Cassie Smith</h4>
+                  <h4>Amy Mazzenti</h4>
                   <div>Alumnae Relations Chair</div>
                   <span></span>
                   <small><a href='mailto:alumnaerelations@phisigmarhofoundation.org'>alumnaerelations@phisigmarhofoundation.org</a></small>
                 </div>
                 <div className='board-volunteers'>
                   <img src='http://placehold.it/200x200' style={{ display: 'none' }} />
-                  <h4>Chloe Heddan</h4>
+                  <h4>Cassie Golden</h4>
                   <div>Collegiate Affairs</div>
                   <span></span>
                   <small><a href='mailto:collegiateaffairs@phisigmarhofoundation.org'>collegiateaffairs@phisigmarhofoundation.org</a></small>
@@ -170,13 +171,13 @@ export default class VolunteersPage extends React.Component {
               <h2>Committees</h2>
               <div id="committees" style={{margin: '5px'}}>
                 <h4>Scholarship Committee</h4>
-                <div>Katie Shesko, Julie Hayden, Beth Holloway, Anita Jean</div>
+                <div>Anita Jean, Helen Lu, Kristin Bell</div>
                 <br/>
                 <h4>Investment Committee</h4>
                 <div>Kathy Bradley, Katie Shesko</div>
                 <br/>
                 <h4>Publicity Committee</h4>
-                <div>Hannah Stone, Lipi Agrawal, Tara Zahnke</div>
+                <div>Hannah Stone, Tara Zahnke</div>
               </div>
 
               <div className='red-section section full-width-image-container'>

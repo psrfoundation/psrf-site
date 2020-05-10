@@ -47,7 +47,7 @@ export default class Index extends React.Component {
                 <strong>Westchester, IL 60154</strong></p>
               <p>
                 Phone: <strong>937-815-0268</strong><br/>
-                Email: <strong><a href="mailto:psrfoundation@phisigmarhofoundation.org">psrfoundation@phisigmarhofoundation.org</a></strong>
+                Email: <strong><a href="mailto:contact@phisigmarhofoundation.org">contact@phisigmarhofoundation.org</a></strong>
              </p>
               <form
                 name="contact"

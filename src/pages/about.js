@@ -22,7 +22,7 @@ export default class AboutPage extends React.Component {
 
               <h3 id="ourmission">Our Mission</h3>
 
-              <p>The Phi Sigma Rho Foundation exists to promote social responsibility, personal integrity, and lifelong enrichment by providing professional, educational, philanthropic, and leadership opportunities.</p>
+              <p>The Phi Sigma Rho Foundation exists to promote social responsibility, personal integrity, and lifelong enrichment by providing professional, educational, philanthropic, and leadership development opportunities for the members and friends of Phi Sigma Rho.</p>
 
               <h3 id="ourvision">Our Vision</h3>
 

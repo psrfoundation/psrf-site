@@ -32,7 +32,7 @@ export default class Footer extends React.Component {
           <Link to='/'><img src={banner} style={{width: '500px'}} alt='Phi Sigma Rho Foundation' /></Link>
           <p style={{wordBreak: 'break-word', marginTop: '1em', marginBottom: 0}}>
             Phi Sigma Rho Foundation | P.O. 7021 Box West Chester, IL<br />
-            P: 937-815-0268 | psrfoundation@phisigmarhofoundation.org
+            P: 937-815-0268 | contact@phisigmarhofoundation.org
           </p>
           <div className='social-links'>
             {/* Instagram */}
