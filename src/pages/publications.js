@@ -19,6 +19,7 @@ export default class PublicationsPage extends React.Component {
 
               <p className='publications magazine'>
                 <b><i>The Key Magazine</i> of Phi Sigma Rho</b><br />
+                <a href="http://www.phisigmarho.org/sites/default/files/flipbooks/PSRMagazineSpring2020/">Spring 2020</a>,&nbsp;
                 <a href="http://phisigmarho.org/sites/default/files/flipbooks/PSRMagazineSpring2019/">Spring 2019</a>,&nbsp;
                   <a href="http://phisigmarho.org/sites/default/files/flipbooks/PSRMagazine2018Fall/">Fall 2018</a>,&nbsp;
                   <a href="http://phisigmarho.org/sites/default/files/flipbooks/PSRMagazineSpring2018/">Spring 2018</a>,&nbsp;
