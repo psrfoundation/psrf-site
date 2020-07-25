@@ -42,10 +42,11 @@ export default class VolunteersPage extends React.Component {
                   <small><a href='mailto:strategy@phisigmarhofoundation.org'>strategy@phisigmarhofoundation.org</a></small>
                 </div>
                 <div className='board-volunteers'>
-                  <img src={elana} />
-                  <h4>Elana Chapman</h4>
+                  <img src={psrf_logo_square} />
+                  <p style={{paddingBottom: '50px'}}></p>
+                  <h4>Open Position</h4>
                   <div>Vice President of Donor Engagement</div>
-                  <div>Gamma - The University of Dayton</div>
+                  <div></div>
                   <small><a href='mailto:donorengagement@phisigmarhofoundation.org'>donorengagement@phisigmarhofoundation.org</a></small>
                 </div>
                 <div className='board-volunteers'>
@@ -183,7 +184,8 @@ export default class VolunteersPage extends React.Component {
               <div className='red-section section full-width-image-container'>
                 <section className='container' style={{ textAlign: 'center' }}>
                   <h2>Volunteer with Us!</h2>
-                  <p>Interested in becoming a volunteer of the Foundation? Contact <a style={{ color: 'inherit', wordBreak: 'break-word' }} href='mailto:hrmanager@phisigmarhofoundation.org'><u>hrmanager@phisigmarhofoundation.org</u></a> to find out about the available positions.</p>
+                  <p>Interested in becoming a volunteer with the Foundation? Sign in to the Phi Rho Portal and click Volunteer Interest Form!</p>
+                  <a href='https://portal.phisigmarho.org' className='button is-large is-rounded' style={{ fontFamily: 'Quicksand', fontWeight: 'bold', display: 'block', color: '#8e2344', backgroundColor: 'white', border: '3px #8e2344 solid', borderRadius: 0, marginLeft: 'auto', marginRight: 'auto', width: '40%', minWidth: '200px' }}>Phi Rho Portal</a>
                 </section>
               </div>
 

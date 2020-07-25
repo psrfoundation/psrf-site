@@ -27,6 +27,8 @@ export default class GivingPage extends React.Component {
               <br />
               <a href='https://www.classy.org/give/238204/#!/donation/checkout' className='button is-large is-rounded' style={{ fontFamily: 'Quicksand', fontWeight: 'bold', display: 'block', color: '#8e2344', backgroundColor: 'white', border: '3px #8e2344 solid', borderRadius: 0, marginLeft: 'auto', marginRight: 'auto', width: '40%', minWidth: '200px' }}>Donate Now!</a>
               <br />
+              <p style={{fontStyle: 'italic', fontSize: 'small', marginLeft: 'auto', marginRight: 'auto', width: '40%', minWidth: '200px'}}>Clicking the above link will redirect to you to the website for Classy. Classy is an online fundraising platform and payment processor used by the Phi Sigma Rho Foundation.</p>
+              <br />
               <h3>Give by Mail</h3>
               <p>To give a gift by mail, please send a check or money order to Phi Sigma Rho Foundation,  PO Box 7021, Westchester, IL 60154.</p>
               <h3>Matching Gift</h3>
