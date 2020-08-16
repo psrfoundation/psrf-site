@@ -23,7 +23,7 @@ export default class ScholarshipPage extends React.Component {
               <ul>
                 <li>The Foundation currently provides six $1,000 scholarships each year.</li>
                 <li>Eligible applicants are undergraduate and graduate members of Phi Sigma Rho in good standing.</li>
-                <li>Scholarship applications are <strong>due March 1</strong> each year.</li>
+                <li>Scholarship applications are usually realeased in October and <strong>due March 1</strong> each year.</li>
                 <li>Recipients are awarded in July at the National meeting for use in the upcoming academic year.</li>
               </ul>
               <p>Eligible sisters may view and submit scholarship applications by signing in to the Phi Rho Portal and clicking Scholarship Applications.</p>

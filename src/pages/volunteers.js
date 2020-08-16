@@ -181,7 +181,7 @@ export default class VolunteersPage extends React.Component {
                 <div>Hannah Stone, Tara Zahnke</div>
               </div>
 
-              <div className='red-section section full-width-image-container'>
+              <div className='section full-width-image-container'>
                 <section className='container' style={{ textAlign: 'center' }}>
                   <h2>Volunteer with Us!</h2>
                   <p>Interested in becoming a volunteer with the Foundation? Sign in to the Phi Rho Portal and click Volunteer Interest Form!</p>
