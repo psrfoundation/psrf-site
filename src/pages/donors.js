@@ -20,6 +20,8 @@ export default class DonorsPage extends React.Component {
 
               <p>Collegiates and recent grads can also get involved in donor programs, with our Penguin Pals Program (P3) and the After the Cap &amp; Gown Program. After a collegiate giving level is met, sisters our recognized for their support with a charm.</p>
               <br />
+              <p>Donors can view their giving history by signing in to the Phi Rho Portal and clicking on My Giving History.</p>
+              <a href='https://portal.phisigmarho.org' className='button is-large is-rounded' style={{ fontFamily: 'Quicksand', fontWeight: 'bold', display: 'block', color: '#8e2344', backgroundColor: 'white', border: '3px #8e2344 solid', borderRadius: 0, marginLeft: 'auto', marginRight: 'auto', width: '40%', minWidth: '200px' }}>Phi Rho Portal</a>
               <div>
                 <div className='container'>
                   <ExpansionPanel>

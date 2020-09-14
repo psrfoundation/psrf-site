@@ -29,7 +29,7 @@ const Navbar = class extends React.Component {
     return (
       <div>
         <nav id='topbar' style={{ display: 'block', backgroundColor: '#8e2344', minHeight: '20px' }}>
-          <a href='http://phisigmarho.org' target='_blank' rel='noopener noreferrer' style={{ verticalAlign: 'text-bottom' }}>Visit PhiSigmaRho.org</a>
+          <a href='http://portal.phisigmarho.org' target='_blank' rel='noopener noreferrer' style={{ verticalAlign: 'text-bottom' }}>Phi Rho Portal</a>
         </nav>
         <PSRFNav />
         {/*

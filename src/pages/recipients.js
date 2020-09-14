@@ -29,6 +29,40 @@ export default class RecipientsPage extends React.Component {
                 <div className='scholarship-title'>
                   <b>Philanthropy and Service Scholarship</b>
                 </div>
+                <div className='scholarship-title'>
+                  <b>Ann Louise Roach Legacy Scholarship</b>
+                </div>
+                <div className='scholarship-title'>
+                  <b>Francis J. Monigan Memorial Scholarship</b>
+                </div>
+
+                <div>
+                  <b className='scholarship-yr'>2020</b>
+                </div>
+                <div className='scholarship-winner'>
+                  <h2>Hannah Todd</h2>
+                  <span>Alpha Beta - University of Cincinnati</span>
+                </div>
+                <div className='scholarship-winner'>
+                  <h2>Brooke Lanier</h2>
+                  <span>Alpha Sigma - University of Nevada - Reno</span>
+                </div>
+                <div className='scholarship-winner'>
+                  <h2>Logan Smesrud</h2>
+                  <span>Sigma - Oregon State University</span>
+                </div>
+                <div className='scholarship-winner'>
+                  <h2>Stephanie Lee</h2>
+                  <span>Nu - University of California, Los Angeles</span>
+                </div>
+                <div className='scholarship-winner'>
+                  <h2>Paige Hardt</h2>
+                  <span>Alpha Pi - University of Wyoming</span>
+                </div>
+                <div className='scholarship-winner'>
+                  <h2>Renee Pelan</h2>
+                  <span>Alpha Zeta - Wright State University</span>
+                </div>
 
                 <div>
                   <b className='scholarship-yr'>2019</b>
@@ -49,6 +83,14 @@ export default class RecipientsPage extends React.Component {
                   <h2>Megan Chang</h2>
                   <span>Chi - University of California, San Diego</span>
                 </div>
+                <div className='scholarship-winner'>
+                  <h2></h2>
+                  <span></span>
+                </div>
+                <div className='scholarship-winner'>
+                  <h2></h2>
+                  <span></span>
+                </div>
 
                 <div>
                   <b className='scholarship-yr'>2018</b>
@@ -64,6 +106,14 @@ export default class RecipientsPage extends React.Component {
                 <div className='scholarship-winner'>
                   <h2>Amy Ostrem</h2>
                   <span>Alpha Beta - University of Cincinnati</span>
+                </div>
+                <div className='scholarship-winner'>
+                  <h2></h2>
+                  <span></span>
+                </div>
+                <div className='scholarship-winner'>
+                  <h2></h2>
+                  <span></span>
                 </div>
                 <div className='scholarship-winner'>
                   <h2></h2>
@@ -89,6 +139,14 @@ export default class RecipientsPage extends React.Component {
                   <h2></h2>
                   <span></span>
                 </div>
+                <div className='scholarship-winner'>
+                  <h2></h2>
+                  <span></span>
+                </div>
+                <div className='scholarship-winner'>
+                  <h2></h2>
+                  <span></span>
+                </div>
 
                 <div>
                   <b className='scholarship-yr'>2016</b>
@@ -104,6 +162,14 @@ export default class RecipientsPage extends React.Component {
                 <div className='scholarship-winner'>
                   <h2>Tayla Mandelkern</h2>
                   <span>Theta - University of Connecticut</span>
+                </div>
+                <div className='scholarship-winner'>
+                  <h2></h2>
+                  <span></span>
+                </div>
+                <div className='scholarship-winner'>
+                  <h2></h2>
+                  <span></span>
                 </div>
                 <div className='scholarship-winner'>
                   <h2></h2>
@@ -129,6 +195,14 @@ export default class RecipientsPage extends React.Component {
                   <h2></h2>
                   <span></span>
                 </div>
+                <div className='scholarship-winner'>
+                  <h2></h2>
+                  <span></span>
+                </div>
+                <div className='scholarship-winner'>
+                  <h2></h2>
+                  <span></span>
+                </div>
 
                 <div>
                   <b className='scholarship-yr'>2014</b>
@@ -144,6 +218,14 @@ export default class RecipientsPage extends React.Component {
                 <div className='scholarship-winner'>
                   <h2>Jessica Berman</h2>
                   <span>Delta - University of Toledo</span>
+                </div>
+                <div className='scholarship-winner'>
+                  <h2></h2>
+                  <span></span>
+                </div>
+                <div className='scholarship-winner'>
+                  <h2></h2>
+                  <span></span>
                 </div>
                 <div className='scholarship-winner'>
                   <h2></h2>
@@ -171,6 +253,14 @@ export default class RecipientsPage extends React.Component {
                   <h2></h2>
                   <span></span>
                 </div>
+                <div className='scholarship-winner'>
+                  <h2></h2>
+                  <span></span>
+                </div>
+                <div className='scholarship-winner'>
+                  <h2></h2>
+                  <span></span>
+                </div>
 
                 <div>
                   <b className='scholarship-yr'>2012</b>
@@ -186,6 +276,14 @@ export default class RecipientsPage extends React.Component {
                   <span>Sigma - Oregon State University</span>
                   <h2>Amanda Grimes</h2>
                   <span>Alpha - Purdue University</span>
+                </div>
+                <div className='scholarship-winner'>
+                  <h2></h2>
+                  <span></span>
+                </div>
+                <div className='scholarship-winner'>
+                  <h2></h2>
+                  <span></span>
                 </div>
                 <div className='scholarship-winner'>
                   <h2></h2>
@@ -219,6 +317,14 @@ export default class RecipientsPage extends React.Component {
                   <h2></h2>
                   <span></span>
                 </div>
+                <div className='scholarship-winner'>
+                  <h2></h2>
+                  <span></span>
+                </div>
+                <div className='scholarship-winner'>
+                  <h2></h2>
+                  <span></span>
+                </div>
 
                 <div>
                   <b className='scholarship-yr'>2010</b>
@@ -243,6 +349,14 @@ export default class RecipientsPage extends React.Component {
                   <h2></h2>
                   <span></span>
                 </div>
+                <div className='scholarship-winner'>
+                  <h2></h2>
+                  <span></span>
+                </div>
+                <div className='scholarship-winner'>
+                  <h2></h2>
+                  <span></span>
+                </div>
 
                 <div>
                   <b className='scholarship-yr'>2009</b>
@@ -252,6 +366,14 @@ export default class RecipientsPage extends React.Component {
                   <span>Omicron - Case Western Reserve University</span>
                   <h2>Stephanie Capiello</h2>
                   <span>Nu - University of California, Los Angelos</span>
+                </div>
+                <div className='scholarship-winner'>
+                  <h2></h2>
+                  <span></span>
+                </div>
+                <div className='scholarship-winner'>
+                  <h2></h2>
+                  <span></span>
                 </div>
                 <div className='scholarship-winner'>
                   <h2></h2>
@@ -285,6 +407,14 @@ export default class RecipientsPage extends React.Component {
                   <h2></h2>
                   <span></span>
                 </div>
+                <div className='scholarship-winner'>
+                  <h2></h2>
+                  <span></span>
+                </div>
+                <div className='scholarship-winner'>
+                  <h2></h2>
+                  <span></span>
+                </div>
 
                 <div>
                   <b className='scholarship-yr'>2007</b>
@@ -305,6 +435,14 @@ export default class RecipientsPage extends React.Component {
                   <h2></h2>
                   <span></span>
                 </div>
+                <div className='scholarship-winner'>
+                  <h2></h2>
+                  <span></span>
+                </div>
+                <div className='scholarship-winner'>
+                  <h2></h2>
+                  <span></span>
+                </div>
 
                 <div>
                   <b className='scholarship-yr'>2006</b>
@@ -312,6 +450,14 @@ export default class RecipientsPage extends React.Component {
                 <div className='scholarship-winner'>
                   <h2>Lauren Buerkle</h2>
                   <span>Omicron - Case Western Reserve University</span>
+                </div>
+                <div className='scholarship-winner'>
+                  <h2></h2>
+                  <span></span>
+                </div>
+                <div className='scholarship-winner'>
+                  <h2></h2>
+                  <span></span>
                 </div>
                 <div className='scholarship-winner'>
                   <h2></h2>

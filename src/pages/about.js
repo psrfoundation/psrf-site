@@ -32,6 +32,11 @@ export default class AboutPage extends React.Component {
 
               <p>Building the future, <strong>together</strong>.</p>
 
+              <h3 id="dates">Upcoming Events and Important Dates</h3>
+
+              <p>Upcoming events and important dates are available by signing in to the Phi Rho Portal and clicking on Calendar at the top of the page.</p>
+              <a href='https://portal.phisigmarho.org' className='button is-large is-rounded' style={{ fontFamily: 'Quicksand', fontWeight: 'bold', display: 'block', color: '#8e2344', backgroundColor: 'white', border: '3px #8e2344 solid', borderRadius: 0, marginLeft: 'auto', marginRight: 'auto', width: '40%', minWidth: '200px' }}>Phi Rho Portal</a>
+
               <div className='red-section section full-width-image-container'>
                 <section className='container' style={{ textAlign: 'center' }}>
 

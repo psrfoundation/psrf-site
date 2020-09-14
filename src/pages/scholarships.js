@@ -23,9 +23,11 @@ export default class ScholarshipPage extends React.Component {
               <ul>
                 <li>The Foundation currently provides six $1,000 scholarships each year.</li>
                 <li>Eligible applicants are undergraduate and graduate members of Phi Sigma Rho in good standing.</li>
-                <li>Scholarship applications are <strong>due March 1</strong> each year.</li>
+                <li>Scholarship applications are usually realeased in October and <strong>due March 1</strong> each year.</li>
                 <li>Recipients are awarded in July at the National meeting for use in the upcoming academic year.</li>
               </ul>
+              <p>Eligible sisters may view and submit scholarship applications by signing in to the Phi Rho Portal and clicking Scholarship Applications.</p>
+              <a href='https://portal.phisigmarho.org' className='button is-large is-rounded' style={{ fontFamily: 'Quicksand', fontWeight: 'bold', display: 'block', color: '#8e2344', backgroundColor: 'white', border: '3px #8e2344 solid', borderRadius: 0, marginLeft: 'auto', marginRight: 'auto', width: '40%', minWidth: '200px' }}>Phi Rho Portal</a>
 
               <div className='section' style={{ padding: '2rem 0rem', paddingTop: '4rem' }}>
                 <div className=''>
@@ -57,19 +59,14 @@ export default class ScholarshipPage extends React.Component {
 
               <h3>Merit Scholarship</h3>
               <p>This scholarship is given to a sister who has excelled academically, as well as demonstrating exceptional acts of community service; leadership, volunteerism, and meaningful participation in Phi Sigma Rho and/or other activities. Financial need will not be considered in determining the winner.</p>
-              <p><a href='/pdf/2020-merit-scholarship-application.pdf'><FaFilePdf /> Download Application</a></p>
               <h3>Leadership Scholarship</h3>
               <p>This scholarship is given to a sister who is a leader in her chapter and community, demonstrated by exceptional acts of community service; volunteerism; and meaningful participation in Phi Sigma Rho and other activities.  Although academic achievement is not considered in determining the winner of this scholarship, a minimum of a 2.75/4.00 GPA is required to qualify. Financial need will not be considered in determining the winner.</p>
-              <p><a href='/pdf/2020-leadership-scholarship-application.pdf'><FaFilePdf /> Download Application</a></p>
               <h3>Philanthropy &amp; Service Scholarship</h3>
               <p>This scholarship is given to a sister who has actively participated in the chapter’s philanthropy and service project for a minimum of 10 hours of community service this academic year, and meaningful participation in Phi Sigma Rho and/or other activities. Although academic achievement is not considered in determining the winner, a minimum of a 2.75/4.00 GPA is required to qualify. Financial need will not be considered in determining the winner.</p>
-              <p><a href='/pdf/2020-philanthropy-and-service-scholarship-application.pdf'><FaFilePdf /> Download Application</a></p>
               <h3>Sarah Rogers McClure Memorial Scholarship</h3>
               <p>This scholarship recognizes a sister who showcases the strength and character traits that Sarah demonstrated on a daily basis, as well as a positive attitude that she shared with everyone that had the pleasure of knowing her.</p>
-              <p><a href='/pdf/2020-sarah-mcclure-scholarship-application.pdf'><FaFilePdf /> Download Application</a></p>
               <h3>Francis J. Monigan Memorial Scholarship</h3>
               <p>The Francis J. Monigan Memorial Scholarship recognizes a Phi Sigma Rho sister in good standing who demonstrates grit and compassion towards others, with a strong preference given to engineering majors. GPA is not considered for this award. This scholarship honors alumna member Heather Monigan's father, Francis, who was a strong supporter of Phi Sigma Rho and women in engineering.</p>
-              <p><a href='/pdf/2020-fjm-memorial-scholarship-application.pdf'><FaFilePdf /> Download Application</a></p>
               <h3>Anne Louise Roach Legacy Scholarship</h3>
               <p>The Anne Louise Roach Legacy Scholarship was created by Jennifer and Bryan Roach to recognize the first traditional mother-daughter legacy and exceptional achievments of
               Anne Roach as she graduated from Purdue University in May 2019. Anne is a BS Chemical Engineer, having completed a five term co-op with Mead Johnson and Reckitt Benckiser and a
@@ -80,7 +77,6 @@ export default class ScholarshipPage extends React.Component {
               grade students as part of Ayude y Aprende Service Learning Project.</p>
               <p>The Anne Louse Roach Legacy Scholarship recognizes the maturity of the sorority, the broad reaching impact of women in engineering, and the generational impact made by 
               all members of Phi Sigma Rho.</p>
-              <p><a href='/pdf/2020-alr-legacy-scholarship-application.pdf'><FaFilePdf /> Download Application</a></p>
               
               <div className='red-section section full-width-image-container' style={{marginBottom: '2.5em'}}>
                 <section className='container' style={{ textAlign: 'center' }}>
@@ -110,14 +106,11 @@ export default class ScholarshipPage extends React.Component {
 }
 
 /*
-
-Pending Donor Approval
-
-<h3>Francis J. Monigan Memorial Scholarship</h3>
-              <p>This scholarship is recognizes a sister who demonstrates grit and compassion towards others, with a strong preference given to engineering majors.</p>
-              <p><a href='#'><FaFilePdf /> Download Application</a></p>
-              <h3>Anne Louise Roach Legacy Scholarship</h3>
-              <p>The scholarship is given to a Phi Rho "legacy" member (as defined by the Phi Sigma Rho National Sorority) in good standing majoring in engineering or engineering technology, who personifies what it means to be a Phi Rho, with excellence in friendship, scholarship, and philanthropy, as demonstrated in their own achievements.</p>
-              <p><a href='#'><FaFilePdf /> Download Application</a></p>
-
-*/
+Old Scholarship Application Links
+              <p><a href='/pdf/2020-merit-scholarship-application.pdf'><FaFilePdf /> Download Application</a></p>
+              <p><a href='/pdf/2020-leadership-scholarship-application.pdf'><fafilepdf /> download application</a></p>
+              <p><a href='/pdf/2020-philanthropy-and-service-scholarship-application.pdf'><fafilepdf /> download application</a></p>
+              <p><a href='/pdf/2020-sarah-mcclure-scholarship-application.pdf'><fafilepdf /> download application</a></p>
+              <p><a href='/pdf/2020-fjm-memorial-scholarship-application.pdf'><fafilepdf /> download application</a></p>
+              <p><a href='/pdf/2020-alr-legacy-scholarship-application.pdf'><fafilepdf /> download application</a></p>
+*/              
