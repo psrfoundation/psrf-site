@@ -58,26 +58,32 @@ export default class ScholarshipPage extends React.Component {
               </div>
 
               <h3>Merit Scholarship</h3>
-              <p>This scholarship is given to a sister who has excelled academically, as well as demonstrating exceptional acts of community service; leadership, volunteerism, and meaningful participation in Phi Sigma Rho and/or other activities. Financial need will not be considered in determining the winner.</p>
+              <p>The Merit Scholarship is given to a well-rounded sister who has excelled academically, as well as promoting the ideals of the sisterhood by being a positive influence through 
+              their chapter and community as a representative of Phi Sigma Rho. A minimum of a 3.00/4.00 GPA is required to qualify. Financial need will not be considered in determining the winner.</p>
               <h3>Leadership Scholarship</h3>
-              <p>This scholarship is given to a sister who is a leader in her chapter and community, demonstrated by exceptional acts of community service; volunteerism; and meaningful participation in Phi Sigma Rho and other activities.  Although academic achievement is not considered in determining the winner of this scholarship, a minimum of a 2.75/4.00 GPA is required to qualify. Financial need will not be considered in determining the winner.</p>
+              <p>The Leadership Scholarship is given to a sister who is a leader in her chapter and community. She demonstrates this through encouragement and mentorship of others and through 
+              meaningful participation in Phi Sigma Rho. Although academic achievement is not considered in determining the winner of the scholarship, a minimum of a 2.75/4.00 GPA is required
+              to qualify. Financial need will not be considered in determining the winner.</p>
               <h3>Philanthropy &amp; Service Scholarship</h3>
-              <p>This scholarship is given to a sister who has actively participated in the chapter’s philanthropy and service project for a minimum of 10 hours of community service this academic year, and meaningful participation in Phi Sigma Rho and/or other activities. Although academic achievement is not considered in determining the winner, a minimum of a 2.75/4.00 GPA is required to qualify. Financial need will not be considered in determining the winner.</p>
+              <p>The Philanthropy &amp; Service Scholarship is given to a sister who actively supports and participates in acts of philanthropy and service. She shows this through her acts of 
+              community service, leadership skills, volunteerism, and meaningful participation in Phi Sigma Rho and/or other activities. Although academic achievement is not considered in determining
+              the winner, a minimum of a 2.75/4.00 GPA is required to qualify. Financial need will not be considered in determining the winner.</p>
               <h3>Sarah Rogers McClure Memorial Scholarship</h3>
-              <p>This scholarship recognizes a sister who showcases the strength and character traits that Sarah demonstrated on a daily basis, as well as a positive attitude that she shared with everyone that had the pleasure of knowing her.</p>
-              <h3>Francis J. Monigan Memorial Scholarship</h3>
-              <p>The Francis J. Monigan Memorial Scholarship recognizes a Phi Sigma Rho sister in good standing who demonstrates grit and compassion towards others, with a strong preference given to engineering majors. GPA is not considered for this award. This scholarship honors alumna member Heather Monigan's father, Francis, who was a strong supporter of Phi Sigma Rho and women in engineering.</p>
+              <p>The Sara Rogers McClure Memorial Scholarship is given to recognize a sister who always puts others fists and takes action because it is the right thing to do, not for attention
+              or personal gains. The ideal recipient will also be active in Phi Sigma Rho and participate in community service or other meaningful activities. Although academic achievement is not
+              considered in determining the winner, a minumum of a 2.75/4.00 GPA is required to qualify. Financial need will not be considered in determining the winner.</p>
               <h3>Anne Louise Roach Legacy Scholarship</h3>
-              <p>The Anne Louise Roach Legacy Scholarship was created by Jennifer and Bryan Roach to recognize the first traditional mother-daughter legacy and exceptional achievments of
-              Anne Roach as she graduated from Purdue University in May 2019. Anne is a BS Chemical Engineer, having completed a five term co-op with Mead Johnson and Reckitt Benckiser and a
-              summer internship at Sazerac's Glenmore Distillery. In addition, Anne graduated with two minors: Spanish and Global Engineering, with three study abroad experiences in Peru, 
-              Switzerland, and Spain. Anne was a member of the Alpha Chapter as Director of Alumnae Affairs, Advisory Board, and Philanthropy Chair. Her campus involvement stretched beyond 
-              the sorority to include Professional Practice Ambassador, Cultural Companion to Purdue's Study Abroad office, Passport (member) to assist international students, and Officer 
-              in Omega Chi Epsilon (Chemical Engineering Honor Society). Anne was also involved in her community beyond the campus, teaching English as a second language to area fourth 
-              grade students as part of Ayude y Aprende Service Learning Project.</p>
-              <p>The Anne Louse Roach Legacy Scholarship recognizes the maturity of the sorority, the broad reaching impact of women in engineering, and the generational impact made by 
-              all members of Phi Sigma Rho.</p>
-              
+              <p>This scholarship was created to recognize the first traditional mother-daughter legacy of Phi Sigma Rho between Jennifer and Anne Roach. The ideal recipient will personify what it 
+              means to be a Phi Rho through her acts of friendship, dedication to scholarship, and display of encouragement. The recipient of this scholarship must be a legacy member as defined by 
+              Phi Sigma Rho sorority (daughter, mother, sister, cousing, aunt, or granddaughter of another member), and must currently be pursuing and undergraduate or graduate degree in engineering
+              or engineering technology. A minimum of a 2.75/4.00 GPA is required to qualify. Overall GPA will be used to deterimine the winner in the event of a tie in regular scoring. Financial 
+              need will not be considered in determining the winner.</p>
+              <h3>Francis J. Monigan Memorial Scholarship</h3>
+              <p>This scholarship was created to celebrate the legacy of Francis J. Monigan, father of Phi Sigma Rho Gamm Chapter Alumna Heather Monigan. Selection of this scholarship will be made to
+              recognize a sister who demonstrates the values Mr. Monigan held most important &ndash; grit, compassion, and a desire for helping others. The ideal recipient will show these values 
+              as well a commitment to engineering and Phi Sigma Rho. While all members of Phi Sigma Rho are encouraged to apply for this scholarship, a strong preference will be given to applicants
+              who are pursuing an undergraduate or graduate degree in an engineering discipline. Although academic achievement is not considered in determining the winner, a minimum of a 2.75/4.00 GPA
+              is required to qualify.  Financial need will not be considered in determining the winner.</p>
               <div className='red-section section full-width-image-container' style={{marginBottom: '2.5em'}}>
                 <section className='container' style={{ textAlign: 'center' }}>
                   <h2>Interested in creating a scholarship fund for Phi Sigma Rho?</h2>
