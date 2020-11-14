@@ -97,17 +97,10 @@ export default class VolunteersPage extends React.Component {
               <div className='board-volunteers-grid-container'>
                 <div className='board-volunteers'>
                   <img src='http://placehold.it/200x200' style={{ display: 'none' }} />
-                  <h4>Amy Mazzenti</h4>
-                  <div>Alumnae Relations Chair</div>
-                  <span></span>
-                  <small><a href='mailto:alumnaerelations@phisigmarhofoundation.org'>alumnaerelations@phisigmarhofoundation.org</a></small>
-                </div>
-                <div className='board-volunteers'>
-                  <img src='http://placehold.it/200x200' style={{ display: 'none' }} />
                   <h4>Cassie Golden</h4>
                   <div>Collegiate Affairs</div>
                   <span></span>
-                  <small><a href='mailto:collegiateaffairs@phisigmarhofoundation.org'>collegiateaffairs@phisigmarhofoundation.org</a></small>
+                  <small><a href='mailto:cassie.golden@phisigmarhofoundation.org'>cassie.golden@phisigmarhofoundation.org</a></small>
                 </div>
                 <div className='board-volunteers'>
                   <img src='http://placehold.it/200x200' style={{ display: 'none' }} />
@@ -154,16 +147,58 @@ export default class VolunteersPage extends React.Component {
                 <div className='board-volunteers'>
                   <img src='http://placehold.it/200x200' style={{ display: 'none' }} />
                   <h4>Christine Jackson</h4>
-                  <div>Assistant Treasurer</div>
+                  <div>Assistant Treasurer / Corporate Donations</div>
                   <span></span>
                   <small><a href='mailto:assistanttreasurer@phisigmarhofoundation.org'>assistanttreasurer@phisigmarhofoundation.org</a></small>
                 </div>
                 <div className='board-volunteers'>
                   <img src='http://placehold.it/200x200' style={{ display: 'none' }} />
-                  <h4>Jennifer Darado-Barman</h4>
+                  <h4>Amelia Cecchini</h4>
                   <div>Service Chair</div>
                   <span></span>
-                  <small><a href="mailto:service@phisigmarhofoundation.org">service@phisigmarhofoundation.org</a></small>
+                  <small><a href="mailto:amelia.cecchini@phisigmarhofoundation.org">ameila.cecchini@phisigmarhofoundation.org</a></small>
+                </div>
+                <div className='board-volunteers'>
+                  <img src='http://placehold.it/200x200' style={{ display: 'none' }} />
+                  <h4>Charlene Peacock</h4>
+                  <div>Chapter Funds</div>
+                  <span></span>
+                  <small><a href="mailto:charlene.peacock@phisigmarhofoundation.org">charlene.peacock@phisigmarhofoundation.org</a></small>
+                </div>
+                <div className='board-volunteers'>
+                  <img src='http://placehold.it/200x200' style={{ display: 'none' }} />
+                  <h4>Jennifer Barman</h4>
+                  <div>Dream Girls</div>
+                  <span></span>
+                  <small><a href="mailto:dreamgirls@phisigmarhofoundation.org">dreamgirls@phisigmarhofoundation.org</a></small>
+                </div>
+                <div className='board-volunteers'>
+                  <img src='http://placehold.it/200x200' style={{ display: 'none' }} />
+                  <h4>Anna Blair</h4>
+                  <div>Donor Acknowledgement</div>
+                  <span></span>
+                  <small><a href="mailto:anna.blair@phisigmarhofoundation.org">anna.blair@phisigmarhofoundation.org</a></small>
+                </div>
+                <div className='board-volunteers'>
+                  <img src='http://placehold.it/200x200' style={{ display: 'none' }} />
+                  <h4>Jena McClanahan</h4>
+                  <div>Donor Acknowledgement</div>
+                  <span></span>
+                  <small><a href="mailto:jena.mcclanahan@phisigmarhofoundation.org">jena.mcclanahan@phisigmarhofoundation.org</a></small>
+                </div>
+                <div className='board-volunteers'>
+                  <img src='http://placehold.it/200x200' style={{ display: 'none' }} />
+                  <h4>Amy Mazzanti</h4>
+                  <div>Donor Acknowledgement</div>
+                  <span></span>
+                  <small><a href="mailto:amy.mazzanti@phisigmarhofoundation.org">amy.mazzanti@phisigmarhofoundation.org</a></small>
+                </div>
+                <div className='board-volunteers'>
+                  <img src='http://placehold.it/200x200' style={{ display: 'none' }} />
+                  <h4>Lisa Courtney</h4>
+                  <div>Grant Review Chair</div>
+                  <span></span>
+                  <small><a href="mailto:lisa.courtney@phisigmarhofoundation.org">lisa.courtney@phisigmarhofoundation.org</a></small>
                 </div>
               </div>
 
@@ -178,7 +213,10 @@ export default class VolunteersPage extends React.Component {
                 <div>Kathy Bradley, Katie Shesko</div>
                 <br/>
                 <h4>Publicity Committee</h4>
-                <div>Hannah Stone, Tara Zahnke</div>
+                <div>Hannah Stone, Tara Zahnke, Mackenzie Dorring</div>
+                <br />
+                <h4>Audit Committee</h4>
+                <div>Missy Mercurio</div>
               </div>
 
               <div className='section full-width-image-container'>
