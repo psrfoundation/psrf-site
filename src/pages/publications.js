@@ -18,15 +18,7 @@ export default class PublicationsPage extends React.Component {
               {/*<p>Each year we publish a report of our accomplishments and financial impact to Phi Sigma Rho.</p>*/}
 
               <p className='publications magazine'>
-                <b><i>The Key Magazine</i> of Phi Sigma Rho</b><br />
-                <a href="http://www.phisigmarho.org/sites/default/files/flipbooks/PSRMagazineSpring2020/">Spring 2020</a>,&nbsp;
-                <a href="http://phisigmarho.org/sites/default/files/flipbooks/PSRMagazineSpring2019/">Spring 2019</a>,&nbsp;
-                  <a href="http://phisigmarho.org/sites/default/files/flipbooks/PSRMagazine2018Fall/">Fall 2018</a>,&nbsp;
-                  <a href="http://phisigmarho.org/sites/default/files/flipbooks/PSRMagazineSpring2018/">Spring 2018</a>,&nbsp;
-                  <a href="http://phisigmarho.org/sites/default/files/flipbooks/PSRMagazineFall2017/">Fall 2017</a>,&nbsp;
-                  <a href="http://phisigmarho.org/sites/default/files/flipbooks/PSRMagazineSpring2017/#p=1">Spring 2017</a>,&nbsp;
-                  <a href="http://phisigmarho.org/sites/default/files/flipbooks/PSRMagazineFall2016/mobile/index.html#p=1">Fall 2016</a>,&nbsp;
-                  <a href="http://phisigmarho.org/sites/default/files/flipbooks/PSRMagazineSpring2016/#p=1">Spring 2016</a>
+                <a href="https://www.phisigmarho.org/the-key"><b><i>The Key Magazine</i> of Phi Sigma Rho</b></a>
               </p>
 
               <p className='publications annual-reports'>
