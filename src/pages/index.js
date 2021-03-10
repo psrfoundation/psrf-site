@@ -108,7 +108,7 @@ export default class IndexPage extends React.Component {
                         <br />
                         <br />
                         <br />
-                        <Link to='https://www.classy.org/campaign/phi-sigma-rho-foundation-16th-anniversary-campaign/c327874' className='button is-large is-rounded' style={{ fontWeight: 'normal', color: 'white', backgroundColor: 'rgba(255,255,255,0)', border: '3px white solid', borderRadius: 0 }}>16th Anniversary Campaign</Link>
+                        <a href='https://www.classy.org/campaign/phi-sigma-rho-foundation-16th-anniversary-campaign/c327874' className='button is-large is-rounded' style={{ fontWeight: 'normal', color: 'white', backgroundColor: 'rgba(255,255,255,0)', border: '3px white solid', borderRadius: 0 }}>16th Anniversary Campaign</a>
                         <br />
                         <br />
                         <br />
